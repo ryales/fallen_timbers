@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-	<ftAccounts>
-		<ftAccount>
-			<bibInfo>
-				<title>Two Journals of the Kentucky Volunteers 1793 and 1794</title>
-				<author>
-					<lastName>Anonymous</lastName>
-				</author>
-				<editor>
+  <ftAccounts>
+    <ftAccount>
+      <bibInfo>
+        <title>Two Journals of the Kentucky Volunteers 1793 and 1794</title>
+        <author>
+          <lastName>Anonymous</lastName>
+        </author>
+				<editor persID="KNOPF">
 					<givenName>Richard C.</givenName>
 					<lastName>Knopf</lastName>
 				</editor>
@@ -17,46 +17,41 @@
 			</bibInfo>
 			<account>
 				<header>
-					Wednesday 20
+					<date date="1794-08-20">Wednesday 20</date>
 				</header>
 
-				<para>
-					<sentence>
-            Clear,
-          </sentence>
-          <sentence>
-            The Baggage being Deposited, in the Fortification the Army moved at 6 in the following order <person id="">Capt Baker</person> &amp; <person id="">Capt Arnold</person>'s Companies under the Comd. of <person id="">Majr. Price</person> formd. the Front or Corps of observation. <person id="">Brigd. Genl. Todd</person> on the Left <person id="">Genl. Wilkinson</person> on the Margin of the River the artillery and bagage in the Centre <person id="">Genl Barbee</person> in the rear
-          </sentence>
-          <sentence>
-            the Ground for 5 miles high &amp; dry open Woods tall large Oaks at 45 Minutes past 8 the Front was attactd. by a number of Indians in the high Grass
-          </sentence>
-          <sentence>
-            They returnd. the fire and fell back to the Front of the Federal Army, which likewise fell back untill They Formed the line of Battle when they movd. on driving the Enemy before them the Cavelry chargd. here
-          </sentence>
-					<sentence>
-            with the loss of the brave <person id="">Capt. M. Campbell</person> at this Time
-          </sentence>
-          <sentence>
-            <person id="">Genl Todd</person> Brigade was forming a line and immediately got into action after getting orders from Genl. Scott to dismount and move forwards in a lo swampy ground with a great dale of fallen Timber and thick brush with Hoop and black Ash bushes which rendred the place difficult to see a Man 10 yds
-          </sentence>
-          <sentence>
-            the action Continud all together 1 hour &amp; 20 Minutes with the Volunteers half an hour when the Indians and their white allies part British and some French retired in a very precipitate manner leaving their dead and some of their wounded on the Field
-          </sentence>
-          <sentence>
-            we moved back over the ground collectd. the wounded and moved to the Federal troops where they were haltd and had the wound dressd. and litters made to carry them in,
-          </sentence>
-          <sentence>
-            the Army then movd. forwarward within sight of the British Garison where the Army incampd on a high Bank in a thick Brush.
-          </sentence>
-          <sentence>
-            the Action was General and conducted with propriety and honour to the American Arms and Their Officer
-          </sentence>
-          <sentence>
-            in sight of the army was the River divided by a large Island well Cultivated with Corn &amp; beans and a number of Stacks of Hay which was a pleaseing sight to the Army but more particularly to the Volunteers that was across the River and bringing loads of Corn and Hay in one hour after the army got to the ground under the Guns of the British Garison
-          </sentence>
-          <sentence>
-            a smart Shower of Rain after the action.
-          </sentence>
+        <para>
+          <description desCat="WEATHER"><weather weatherCat="CLEAR">Clear</weather></description>,
+          <action actionCat="">The Baggage being Deposited, in the Fortification</action>
+          <action actionCat="MOVEMENT">the Army moved at <time>6</time></action> in the following order
+          <action actionCat="POSITION"><person persID="BAKER">Capt Baker</person> &amp; <person persID="ARNOLD">Capt Arnold</person>'s Companies under the Comd. of <person persID="PRICE">Majr. Price</person> formd. the Front or Corps of observation.</action>
+          <action actionCat="POSITION"><person persID="TODD">Brigd. Genl. Todd</person> on the Left</action>
+          <action actionCat="POSITION"><person persID="WILKINSON">Genl. Wilkinson</person> on the Margin of the River the artillery</action> and
+          <action actionCat="POSITION">bagage in the Centre</action>
+          <action actionCat="POSITION"><person persID="BARBEE">Genl Barbee</person> in the rear</action>         
+          <description desCat="LANDSCAPE">the Ground for 5 miles high &amp; dry open Woods tall large Oaks</description>
+          <action actionCat="CONFLICT"><time>at 45 Minutes past 8</time> the Front was attactd. by a number of Indians in the high Grass</action>
+          <action actionCat="CONFLICT">They returnd. the fire</action>
+          <action actionCat="MOVEMENT">and fell back to the Front of the Federal Army,</action>
+          <action actionCat="MOVEMENT">which likewise fell back untill They Formed the line of Battle</action>
+          <action actionCat="MOVEMENT">when they movd. on driving the Enemy before them</action>
+          <action actionCat="MOVEMENT">the Cavelry chargd. here</action>
+					<action actionCat="DEATH">with the loss of the brave <person persID="MISCAMPBELL">Capt. M. Campbell</person> at this Time</action>
+          <action actionCat=""><person persID="TODD">Genl Todd</person> Brigade was forming a line and immediately got into action after getting orders from <person persID="SCOTT">Genl. Scott</person> to dismount and move forwards</action> in
+          <description desCat="LANDSCAPE">a lo swampy ground with a great dale of fallen Timber and thick brush with Hoop and black Ash bushes which rendred the place difficult to see a Man 10 yds</description>
+          <action actionCat="CONFLICT">the action Continud all together 1 hour &amp; 20 Minutes</action>
+          <action actionCat="CONFLICT">with the Volunteers half an hour</action>
+          <action actionCat="MOVEMENT">when the Indians and their white allies part British and some French retired in a very precipitate manner</action>
+          <action actionCat="">leaving their dead and some of their wounded on the Field</action>
+          <action actionCat="MEDICAL">we moved back over the ground collectd. the wounded</action> and
+          <action actionCat="MOVEMENT">moved to the Federal troops where they were haltd</action> and
+          <action actionCat="MEDICAL">had the wound dressd. and litters made to carry them in,</action>
+          <action actionCat="MOVEMENT">the Army then movd. forwarward within sight of the British Garison</action>
+          <action actionCat="CAMP">where the Army incampd on a high Bank in a thick Brush.</action>
+          <description desCat="COMMENTARY">the Action was General and conducted with propriety and honour to the American Arms and Their Officer</description>
+          <description desCat="LANDSCAPE">in sight of the army was the River divided by a large Island well Cultivated with Corn &amp; beans and a number of Stacks of Hay which was a pleaseing sight to the Army but more particularly to the Volunteers that was across the River</description> and
+          <action actionCat="LOOT">bringing loads of Corn and Hay in <time>one hour after</time> the army got to the ground under the Guns of the British Garison</action>
+          <description desCat="WEATHER">a smart <weather weatherCat="RAIN">Shower of Rain</weather> <time>after the action</time>.</description>
 				</para>
 			</account>
 		</ftAccount>
@@ -64,14 +59,14 @@
 			<bibInfo>
 				<title>From Greene Ville to Fallen Timbers, A Journal of the Wayne Campaign: July 28-September 14, 1794</title>
 				<author>Anonymous [James Wilkinson]</author>
-				<editor>Dwight L. Smith</editor>
+				<editor persID="SMITH">Dwight L. Smith</editor>
 				<pubName>Indiana Historical Society</pubName>
 				<pubPlace>Indianapolis, IN</pubPlace>
 				<pubYear>1952</pubYear>
 			</bibInfo>
 			<account>
 				<header>
-					August 20th 1794&#8212;
+					<date date="1794-08-20">August 20th 1794</date>&#8212;
 				</header>
 
 				<para>
@@ -85,7 +80,7 @@
             the strength of the right Column was precisely 368 non commissioned-officers and privates&#8212;say of the 3 S Legn 250 and of the 1st S L. 118.
           </sentence>
 					<sentence>
-            the <person id="">C in C</person> ordered that the files should be doubled, and an interval of at least 200 yards from the centre column to be observed&#8212;
+            the <person persID="WAYNE">C in C</person> ordered that the files should be doubled, and an interval of at least 200 yards from the centre column to be observed&#8212;
           </sentence>
           <sentence>
             <person id="">Capt Springer</person> who led the right flank Rifle Men was ordered to observe an equal distance from the Column&#8212;
