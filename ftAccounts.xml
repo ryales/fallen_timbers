@@ -24,11 +24,11 @@
           <description desCat="WEATHER"><weather weatherCat="CLEAR">Clear</weather></description>,
           <action actionCat="">The Baggage being Deposited, in the Fortification</action>
           <action actionCat="MOVEMENT">the Army moved at <time>6</time></action> in the following order
-          <action actionCat="POSITION"><person persID="BAKER">Capt Baker</person> &amp; <person persID="ARNOLD">Capt Arnold</person>'s Companies under the Comd. of <person persID="PRICE">Majr. Price</person> formd. the Front or Corps of observation.</action>
-          <action actionCat="POSITION"><person persID="TODD">Brigd. Genl. Todd</person> on the Left</action>
-          <action actionCat="POSITION"><person persID="WILKINSON">Genl. Wilkinson</person> on the Margin of the River the artillery</action> and
-          <action actionCat="POSITION">bagage in the Centre</action>
-          <action actionCat="POSITION"><person persID="BARBEE">Genl Barbee</person> in the rear</action>         
+          <description desCat="POSITION"><person persID="BAKER">Capt Baker</person> &amp; <person persID="ARNOLD">Capt Arnold</person>'s Companies under the Comd. of <person persID="PRICE">Majr. Price</person> formd. the Front or Corps of observation.</description>
+          <description desCat="POSITION"><person persID="TODD">Brigd. Genl. Todd</person> on the Left</description>
+          <description desCat="POSITION"><person persID="WILKINSON">Genl. Wilkinson</person> on the Margin of the River the artillery</description> and
+          <description desCat="POSITION">bagage in the Centre</description>
+          <description desCat="POSITION"><person persID="BARBEE">Genl Barbee</person> in the rear</description>         
           <description desCat="LANDSCAPE">the Ground for 5 miles high &amp; dry open Woods tall large Oaks</description>
           <action actionCat="CONFLICT"><time>at 45 Minutes past 8</time> the Front was attactd. by a number of Indians in the high Grass</action>
           <action actionCat="CONFLICT">They returnd. the fire</action>
@@ -605,7 +605,7 @@
 		</ftAccount>
 		<ftAccount>
 			<bibInfo>
-				<author>Thomas Taylor Underwood</author>
+				<author persID="UNDERWOOD">Thomas Taylor Underwood</author>
 				<title>Journal, Thomas Taylor Underwood, March 26, 1792 to March 18, 1800: An Old Soldier in Wayne's Army</title>
 				<pubName>The Society of Colonial Wars in the State of Ohio</pubName>
 				<pubPlace>Cincinnati, OH</pubPlace>
@@ -618,14 +618,16 @@
 
 				<para>
 					This morning the army was under arms, at day light and our
-					line of march arranged. Lietenant Hary Beverly Towles was
-					detailed to take command of the front guard, he was ordered to
-					march on in front, the main army commenced there march,
-					General Charles Scott with his mounted Volunteers were placed
-					in the rear. After marching 3 or 4 miles the front guard was
-					fired on, &amp; the most of them either killed or wounded. Lieut.
-					H. B. Towles was killed, also his sergeant, By the name of Eli
-					Edmondson. The army was immediately formed for Action,
+					line of march arranged. 
+          <description desCat="POSITION"><person persID="TOWLES">Lietenant Hary Beverly Towles</person> was detailed to take command of the front guard,</description>
+          <action actionCat="MOVEMENT">he was ordered to march on in front,</action>
+          <action actionCat="MOVEMENT">the main army commenced there march,</action>
+					<description desCat="POSITION"><person persID="SCOTT">General Charles Scott</person> with his mounted Volunteers were placed in the rear.</description>
+          <action actionCat="MOVEMENT">After marching 3 or 4 miles</action>
+          <action actionCat="CONFLICT">the front guard was fired on, &amp; the most of them either killed or wounded.</action>
+          <action actionCat="DEATH"><person persID="TOWLES">Lieut. H. B. Towles</person> was killed,</action>
+          <action actionCat="DEATH">also his sergeant, By the name of <person persID="EDMONDSON">Eli Edmondson</person>.</action>
+          The army was immediately formed for Action,
 					which very soon began, it commenced on the right of the army,
 					&amp; on the margin of the River, Lieutenant Percy Pope commanded
 					Capt. John Prices company of artillery and he was the first officer
@@ -642,23 +644,23 @@
 				</para>
 
 				<para>
-					Capt. Robert Mis Campbell &amp; Lieutenant Harry B. Towles were
-					killed and several officers badly wounded. Lieutenant Solomon
-					Vanranceller was shot in the right breast and taken to the Generals
-					Quarters, John OBrion was with the front guard this morning,
-					&amp; on the retreat he was shot in the low part of his back, the
-					ball passed through the bottom of his Belly &amp; lodged in a certain
-					part in front, in his P&#8212;&#8212; After entured the dead with the
-					Honors of War the army marched back to Camp deposite, we
-					have heard that the indians Burnt poor George May who they
-					took prisoner 19th inst.
+					<action actionCat="DEATH"><person persID="MISCAMPBELL">Capt. Robert Mis Campbell</person></action> &amp;
+          <action actionCat="DEATH"><person persID="TOWLES">Lieutenant Harry B. Towles</person> were killed</action> and 
+          <action actionCat="">several officers badly wounded.</action>
+          <action actionCat=""><person persID="VANRENSSELAER">Lieutenant Solomon Vanranceller</person> was shot in the right breast and taken to the Generals Quarters,</action>
+          <description desCat="POSITION"><person persID="OBRION">John OBrion</person> was with the front guard this morning,</description> &amp; on the retreat 
+          <action actionCat="">he was shot in the low part of his back, the	ball passed through the bottom of his Belly &amp; lodged in a certain	part in front, in his P&#8212;&#8212;</action>
+          <action actionCat="">After entured the dead with the  Honors of War</action>
+          <action actionCat="MOVEMENT">the army marched back to Camp deposite</action>, we have heard that
+          <action actionCat="">the indians Burnt poor <person persID="MAY">George May</person></action>
+          <action actionCat="HOSTAGE">who they took prisoner <date date="1794-08-19">19th inst.</date></action>
 				</para>
 			</account>
 		</ftAccount>
 		<ftAccount>
 			<bibInfo>
-				<author>Randolph</author>
-				<editor>Richard C. Knopf</editor>
+				<author persID="RANDOLPH">Randolph</author>
+				<editor persID="KNOPF">Richard C. Knopf</editor>
 				<title>A Precise Journal of General Wayne's Last Campaign in the year 1794, against the western Indians, taken down in the course of the campaign: With an account of an attack made of an attack made on Fort Recovery, by the Indians, on the 30th June preceding.</title>
 				<pubTitle>American Antiquarian Society</pubTitle>
 				<pubYear>1954</pubYear>
@@ -682,25 +684,17 @@
 					in one Hour. When the Pursuit was left, the Legion halted and
 					refreshed with an Issue of some Spirits&#8212;our Killed and Wounded
 					collected, the former enterred, the latter dressed and sent to Camp
-					Deposit. Among the Killed was that goodj brave, gallant and
-					intrepid Captain Robert Mis Campbell, of the second Troop
+					Deposit. 
+          <action actionCat="">Among the Killed was that good, brave, gallant and
+					intrepid <person persID="MISCAMPBELL">Captain Robert Mis Campbell</person>, of the second Troop
 					Light Dragoons, and then commanding Officer of the Cavalry,
-					who fell in a Charge on the Enemy in an early Part of the Action;
-					by which the Legion was deprived of one of its bravest Officers,
-					before he had an Opportunity of rendering his Country those
-					Services which were to be expected from his Bravery. It would
-					be vain for Abilities like mine to attempt to describe the deceased
-					Captain Campbell's Virtues; but to do Justice to his Memory I
-					cannot avoid observing, he was possessed of every Qualification
-					which constitutes the Gentleman, the Officer and a good Man:
-					and as he was when living generally loved, now that he is dead
-					I believe he is as generally lamented.
+					who fell in a Charge on the Enemy in an early Part of the Action;</action>
+					<description desCat="COMMENTARY">by which the Legion was deprived of one of its bravest Officers, before he had an Opportunity of rendering his Country those Services which were to be expected from his Bravery. It would be vain for Abilities like mine to attempt to describe the deceased Captain Campbell's Virtues; but to do Justice to his Memory I cannot avoid observing, he was possessed of every Qualification which constitutes the Gentleman, the Officer and a good Man: and as he was when living generally loved, now that he is dead description believe he is as generally lamented.</description>
 				</para>
 
 				<para>
-					Lieutenant Henry B. Towles, a brave and gallant Officer of the
-					4th Sub-Legion Light-Infantry, was also killed in the Course of
-					this Action, and several other intrepid Officers wounded.
+					<action actionCat="DEATH"><person persID="TOWLES">Lieutenant Henry B. Towles</person>, a brave and gallant Officer of the 4th Sub-Legion Light-Infantry, was also killed in the Course of this Action</action>, and
+          <action actionCat="">several other intrepid Officers wounded</action>.
 				</para>
 
 				<para>
@@ -714,13 +708,13 @@
 				</para>
 
 				<para>
-					Advanced six Miles this Day.
+					<action actionCat="MOVEMENT">Advanced six Miles this Day.</action>
 				</para>
 			</account>
 		</ftAccount>
 		<ftAccount>
 			<bibInfo>
-				<author>John Boyer</author>
+				<author persID="BOYER">John Boyer</author>
 				<title>A Journal of Wayne's Campaign: Being an Authentic Daily Record of the most Important Occurrences during the Campaign of Major General Anthony Wayne, against the Northwestern Indians; Commencing on the 28th day of July, and ending on the 2d day of November, 1794; including an account of the great battle of August 20th.</title>
 				<pubName>Jno. F. Uhlhorn</pubName>
 				<pubPlace>Cincinnati, OH</pubPlace>
@@ -729,14 +723,13 @@
 			<account>
 				<header>
 					Camp in sight of a British garrison, on the Miamis of the Lake,
-					August 20th, 1794&#8212;one hundred and fifty miles from Greenville.
+					<date date="1794-08-20">August 20th, 1794</date>&#8212;one hundred and fifty miles from Greenville.
 				</header>
 				<para>
-				  This day the legion, after depositing every kind of baggage,
-				  took up the line of march at 7 o'clock, and continued their
-				  route down the margin of the river, without making any
-				  discovery, until 11 o'clock, when the front guard, which was
-				  composed of mounted volunteers, were fired on by the enemy.
+				  <action actionCat="">This day the legion, after depositing every kind of baggage</action>,
+				  <action actionCat="">took up the line of march at <time>7 o'clock</time></action>, and
+          <action actionCat="MOVEMENT">continued their route down the margin of the river, without making any discovery</action>,
+          <action actionCat="CONFLICT">until <time>11 o'clock</time>, when the front guard, which was composed of mounted volunteers, were fired on by the enemy</action>.
 				  The guard retreated in the utmost confusion through the front
 				  guard of the regulars, commanded by Captain Cook and
 				  Lieutenant Steele, who, in spite of their utmost exertion,
@@ -760,11 +753,11 @@
 			    enemy giving way in all quarters, which left us in possession
 			    of their dead to the number of forty. Our loss was thirty
 			    killed and one hundred wounded. Among the former we
-			    have to lament the loss of <person id="">Captain Miss Campbell</person> of the
-			    dragoons, and <person id="">Lieutenant Henry B. Fowles</person> of the 4th sub-legion;
-			    and of the latter, <person id="">Captains Prior</person> of the first, <person id="">Slough</person>
+			    have to lament the loss of <person id="MISCAMPBELL">Captain Miss Campbell</person> of the
+			    dragoons, and <person id="TOWLES">Lieutenant Henry B. Fowles</person> of the 4th sub-legion;
+			    and of the latter, <person id="PRIOR">Captains Prior</person> of the first, <person id="SLOUGH">Slough</person>
 			    of the fourth, and <person id="">Van Rensselaer</person> of the dragoons, also
-			    <person id="">Lieutenant Campbell Smith</person> of the fourth sub-legion. The
+			    <person id="CAMPBELLSMITH">Lieutenant Campbell Smith</person> of the fourth sub-legion. The
 			    whole loss of the enemy cannot at present be ascertained, but
 			    it is more than probable it must have been considerable, for
 			    we pursued them with rapidity for nearly two miles. As to
@@ -816,7 +809,7 @@
 				</opening>
 
 				<para>
-					It's with infinite pleasure that I now announce to you the brilliant success of the Federal army under my Command in a General action with the combined force of the Hostile Indians &amp; a considerable number of the Volunteers &amp; Militia of Detroit on the 20th Instant, on the banks of the Miamis, in the vicinity of the British post &amp; Garrison at the foot of the rapids.
+					It's with infinite pleasure that I now announce to you the brilliant success of the Federal army under my Command in a General action with the combined force of the Hostile Indians &amp; a considerable number of the Volunteers &amp; Militia of Detroit on the <date date="1794-08-20">20th Instant</date>, on the banks of the Miamis, in the vicinity of the British post &amp; Garrison at the foot of the rapids.
 				</para>
 
 				<para>
@@ -895,7 +888,7 @@
 			</bibInfo>
 			<account>
 				<header>
-					Camp Near Fort Miamis, 27th Aug 1794
+					Camp Near Fort Miamis, <date date="1794-08-20">27th Aug 1794</date>
 				</header>
 				
 				<opening>
@@ -903,11 +896,14 @@
 				</opening>
 
 				<para>
-					It was not possible for me sooner to communicate the events which have lately happened in this country. General Wayne with an Army of Near 4000 men (according to the report of desertion) made gradual approaches towards us until his arrival at Roche de Bout on the 17th Instant where he fixed his head Quarters, on the 18th. The Spy May was taken, who informed the Indians it was intended to attack them the next day. Unless the General should determine to build a Fort, in which case he would not advance until the day following, on the 19th the Indians to the  number of 1300 marched early to the most advantageous ground, but a strong detachment of Cavalry only made their appearance and retired as soon as the Indians showed themselves.
+					It was not possible for me sooner to communicate the events which have lately happened in this country. <person persID="WAYNE">General Wayne</person> with an Army of Near 4000 men (according to the report of desertion) made gradual approaches towards us until his arrival at Roche de Bout on the <date date="1794-08-17">17th Instant</date> where he fixed his head Quarters, on <date date="1794-08-18">the 18th</date>.
+          <action actionCat="HOSTAGE">The <person persID="MAY">Spy May</person> was taken</action>,
+          <action actionCat="INTELLIGENCE">who informed the Indians it was intended to attack them the next day.</action>
+          Unless the General should determine to build a Fort, in which case he would not advance until the day following, on the 19th the Indians to the number of 1300 marched early to the most advantageous ground, but a strong detachment of Cavalry only made their appearance and retired as soon as the Indians showed themselves.
 				</para>
 
 				<para>
-					On the 20th the American Army advanced and were first attacked by the left of the center of the Indian line which extended near three quarters of a mile obliquely upward. The Americans soon gave way &amp; a rapid pursuit took place for about a mile where the Indian discovered the whole of the American Army Posted to whom they gave Battle retiring slowly before them, during this period, the Wyandot and Ottawas who were on the Right were warmly engaged by the American Left consisting of both Cavalry and infantry who out flanked and infiladed the Indians until they retreated. The whole line of the Indians then retired below the Fort imagining their loss to be much greater then it since appears to have been having seen several of their principal Chiefs fall; the greatest cost they have sustained is in their leaders they settled that night at Swan Creek about five miles below and were not pursued. There were never more than  Indians engaged during the whole day and these stood the shock of a great part of their Army for upward of two hours and lost in the whole but 19 men among whom are to be a  much lamented 8 Principal Chiefs of the Wyandots and two of the Ottawas, besides two more wounded.
+					On the 20th the American Army advanced and were first attacked by the left of the center of the Indian line which extended near three quarters of a mile obliquely upward. The Americans soon gave way &amp; a rapid pursuit took place for about a mile where the Indian discovered the whole of the American Army Posted to whom they gave Battle retiring slowly before them, during this period, the Wyandot and Ottawas who were on the Right were warmly engaged by the American Left consisting of both Cavalry and infantry who out flanked and infiladed the Indians until they retreated. The whole line of the Indians then retired below the Fort imagining their loss to be much greater then it since appears to have been having seen several of their principal Chiefs fall; the greatest cost they have sustained is in their leaders they settled that night at Swan Creek about five miles below and were not pursued. There were never more than  Indians engaged during the whole day and these stood the shock of a great part of their Army for upward of two hours and lost in the whole but 19 men among whom are to be a much lamented 8 Principal Chiefs of the Wyandots and two of the Ottawas, besides two more wounded.
 				</para>
 
 				<para>
@@ -915,7 +911,12 @@
 				</para>
 
 				<para>
-					Some letters passed between Major Campbell Commanding Fort Miamis and General Wayne after the action, and on the 22 the American Army quitted the position they had taken within a mile of the Fort and retreated the same way they came but whether on account of the want of Provisions or of an order from Philadelphia cannot be certainly known. The American Army have left evident marks of their boasted Humanity behind them besides scalping and mutilating the Indians who were killed in action they  have opened the peaceful graves in different parts of the Country. Explored the Bones of the consumed &amp; consuming bodies, and horrid to relate they have with unparalleled barbarity driven stakes through them and left them objects calling for more than human vengence.
+					<action actionCat="">Some letters passed between <person persID="W_CAMPBELL">Major Campbell</person> Commanding Fort Miamis and <person persID="WAYNE">General Wayne</person> after the action</action>, and
+          <action actionCat="MOVEMENT">on the 22 the American Army quitted the position they had taken within a mile of the Fort and retreated the same way they came</action>
+          <action actionCat="">but whether on account of the want of Provisions or of an order from Philadelphia cannot be certainly known.</action>
+          <action actionCat="">The American Army have left evident marks of their boasted Humanity behind them besides</action> 
+          <action actionCat="">scalping and mutilating the Indians who were killed in action</action> 
+          <action actionCat="">they have opened the peaceful graves in different parts of the Country. Explored the Bones of the consumed &amp; consuming bodies, and horrid to relate they have with unparalleled barbarity driven stakes through them and left them objects calling for more than human vengence.</action>
 				</para>
 
 				<closing>
@@ -923,11 +924,11 @@
 					Dear sir
 					Yours very sincerely
 					Signed
-					AMcKee
+					<person persID="MCKEE">AMcKee</person>
 				</closing>
 
 				<addressee>
-					Joseph Chew Esq
+					<person persID="CHEW">Joseph Chew Esq</person>
 					&amp;c. &amp;c.
 					Montreal 20th Sept 1794
 				</addressee>
@@ -951,17 +952,17 @@
 				</para>
 
 				<para>
-					I expect this will find Colonel McKee near Point Au Chene&#8212;Would to God the Governor himself were here. Whatever happens I shall do for the best. No one can do more. You shall soon hear from me again. Meantime allow me to subscribe myself.
+					I expect this will find <person persID="MCKEE">Colonel McKee</person> near Point Au Chene&#8212;Would to God the <person persID="DORCHESTER">Governor</person> himself were here. Whatever happens I shall do for the best. No one can do more. You shall soon hear from me again. Meantime allow me to subscribe myself.
 				</para>
 
 				<closing>
 					Ever most faithfully and truly,
 				
-					Wm. Campbell.
+					<person persID="W_CAMPBELL">Wm. Campbell</person>.
 				</closing>
 
 				<postscript>
-					P.S.&#8212;Lt. Selbie arrived about three o'clock with your dispatch of the 18th by which I was extremely happy to find all well at Detroit. Captain Harrow and his six sailors are still here. To-morrow morning will probably decide me whether to keep him or not. When we manned our work this morning at Reveille beating, we mustered 160 Rank and File of the 24th, Queen's Rangers, and Artillery, (I beg the Artillery's pardon), exclusive of Canadians and artificers. We have Captain [torn] and about 24 Canadians.
+					P.S.&#8212;<person persID="SELBIE">Lt. Selbie</person> arrived about <time>three o'clock</time> with your dispatch of the 18th by which I was extremely happy to find all well at Detroit. Captain Harrow and his six sailors are still here. To-morrow morning will probably decide me whether to keep him or not. When we manned our work this morning at Reveille beating, we mustered 160 Rank and File of the 24th, Queen's Rangers, and Artillery, (I beg the Artillery's pardon), exclusive of Canadians and artificers. We have Captain [torn] and about 24 Canadians.
 				</postscript>
 			</account>
 		</ftAccount>
@@ -979,7 +980,7 @@
 				</opening>
 
 				<para>
-					I sent last night a dispatch to you, to be forwarded by Colonel McKee wherever he should be found, somewhere lower down this River.
+					I sent last night a dispatch to you, to be forwarded by <person persID="MCKEE">Colonel McKee</person> wherever he should be found, somewhere lower down this River.
 				</para>
 
 				<para>
@@ -987,11 +988,11 @@
 				</para>
 
 				<para>
-					From the circumstance of an American army having taken Post on the heights opposite to Col. McKees, almost within reach of the Guns of this Fort, and remained there upwards of twenty four hours, without any explanation on their part, I conceived it a duty I owed to my station, &amp; indispensably necessary in support of the honor of the British Colours to desire to be informed upon what Terms they approached so near this Post. I refer you to my letter to Him, now enclosed (and which I hope you will not think unguarded) together with his answer—I sent my Flag by Captain Spears at eleven o'clock this morning—Captain Spears was stopped at their out Post, and was desired to return immediately, as the woods were full of Rifflemen, and they were affraid of his safety, from accident. But that an answer should be sent presently. It arrived at four o'clock. It appears to me, a vain production and still leaves me a cautious part to act. At the same time, if any of his Troops wantonly Insults this Post, it shall not be with Impunity.
+					From the circumstance of an American army having taken Post on the heights opposite to <person persID="MCKEE">Col. McKees</person>, almost within reach of the Guns of this Fort, and remained there upwards of twenty four hours, without any explanation on their part, I conceived it a duty I owed to my station, &amp; indispensably necessary in support of the honor of the British Colours to desire to be informed upon what Terms they approached so near this Post. I refer you to my letter to Him, now enclosed (and which I hope you will not think unguarded) together with his answer--I sent my Flag by Captain Spears at eleven o'clock this morning--Captain Spears was stopped at their out Post, and was desired to return immediately, as the woods were full of Rifflemen, and they were affraid of his safety, from accident. But that an answer should be sent presently. It arrived at four o'clock. It appears to me, a vain production and still leaves me a cautious part to act. At the same time, if any of his Troops wantonly Insults this Post, it shall not be with Impunity.
 				</para>
 
 				<para>
-					I sincerely wish the Governor himself may soon arrive, and take all responsibility upon him.
+					I sincerely wish <person persID="DORCHESTER">the Governor</person> himself may soon arrive, and take all responsibility upon him.
 				</para>
 
 				<para>
