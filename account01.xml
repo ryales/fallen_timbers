@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+    <ftAccount id="01">
+      <bibInfo>
+        <title>Two Journals of the Kentucky Volunteers 1793 and 1794</title>
+        <author>
+          <lastName>Anonymous</lastName>
+        </author>
+				<editor persID="KNOPF">
+					<givenName>Richard C.</givenName>
+					<lastName>Knopf</lastName>
+				</editor>
+				<pubTitle>The Filson Club Historical Quarterly</pubTitle>
+				<volume>27</volume>
+				<issue>3</issue>
+				<pubYear>1953</pubYear>
+			</bibInfo>
+			<account>
+				<header>
+					<date date="1794-08-20">Wednesday 20</date>
+				</header>
+
+        <para>
+          <description desCat="WEATHER"><weather weatherCat="CLEAR">Clear</weather></description>,
+          <action actionCat="">The Baggage being Deposited, in the Fortification</action>
+          <action actionCat="MOVEMENT">the Army moved at <time>6</time></action> in the following order
+          <description desCat="POSITION"><person persID="BAKER">Capt Baker</person> &amp; <person persID="ARNOLD">Capt Arnold</person>'s Companies under the Comd. of <person persID="PRICE">Majr. Price</person> formd. the Front or Corps of observation.</description>
+          <description desCat="POSITION"><person persID="TODD">Brigd. Genl. Todd</person> on the Left</description>
+          <description desCat="POSITION"><person persID="WILKINSON">Genl. Wilkinson</person> on the Margin of the River the artillery</description> and
+          <description desCat="POSITION">bagage in the Centre</description>
+          <description desCat="POSITION"><person persID="BARBEE">Genl Barbee</person> in the rear</description>         
+          <description desCat="LANDSCAPE">the Ground for 5 miles high &amp; dry open Woods tall large Oaks</description>
+          <action actionCat="CONFLICT"><time>at 45 Minutes past 8</time> the Front was attactd. by a number of Indians in the high Grass</action>
+          <action actionCat="CONFLICT">They returnd. the fire</action>
+          <action actionCat="MOVEMENT">and fell back to the Front of the Federal Army,</action>
+          <action actionCat="MOVEMENT">which likewise fell back untill They Formed the line of Battle</action>
+          <action actionCat="MOVEMENT">when they movd. on driving the Enemy before them</action>
+          <action actionCat="MOVEMENT">the Cavelry chargd. here</action>
+					<action actionCat="DEATH">with the loss of the brave <person persID="MISCAMPBELL">Capt. M. Campbell</person> at this Time</action>
+          <action actionCat=""><person persID="TODD">Genl Todd</person> Brigade was forming a line and immediately got into action after getting orders from <person persID="SCOTT">Genl. Scott</person> to dismount and move forwards</action> in
+          <description desCat="LANDSCAPE">a lo swampy ground with a great dale of fallen Timber and thick brush with Hoop and black Ash bushes which rendred the place difficult to see a Man 10 yds</description>
+          <action actionCat="CONFLICT">the action Continud all together 1 hour &amp; 20 Minutes</action>
+          <action actionCat="CONFLICT">with the Volunteers half an hour</action>
+          <action actionCat="MOVEMENT">when the Indians and their white allies part British and some French retired in a very precipitate manner</action>
+          <action actionCat="">leaving their dead and some of their wounded on the Field</action>
+          <action actionCat="MEDICAL">we moved back over the ground collectd. the wounded</action> and
+          <action actionCat="MOVEMENT">moved to the Federal troops where they were haltd</action> and
+          <action actionCat="MEDICAL">had the wound dressd. and litters made to carry them in,</action>
+          <action actionCat="MOVEMENT">the Army then movd. forwarward within sight of the British Garison</action>
+          <action actionCat="CAMP">where the Army incampd on a high Bank in a thick Brush.</action>
+          <description desCat="COMMENTARY">the Action was General and conducted with propriety and honour to the American Arms and Their Officer</description>
+          <description desCat="LANDSCAPE">in sight of the army was the River divided by a large Island well Cultivated with Corn &amp; beans and a number of Stacks of Hay which was a pleaseing sight to the Army but more particularly to the Volunteers that was across the River</description> and
+          <action actionCat="LOOT">bringing loads of Corn and Hay in <time>one hour after</time> the army got to the ground under the Guns of the British Garison</action>
+          <description desCat="WEATHER">a smart <weather weatherCat="RAIN">Shower of Rain</weather> <time>after the action</time>.</description>
+				</para>
+			</account>
+		</ftAccount>
