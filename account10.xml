@@ -21,7 +21,9 @@
       </pubName>
       <pubDate date="1924"></pubDate>
       <pubPlace city="Toronto" state="Ontario" country="Canada"></pubPlace>
-      <pubPage>395-396</pubPage>
+      <pubPage>
+        395-396
+      </pubPage>
     </bibInfo>
     <account>
       <header>

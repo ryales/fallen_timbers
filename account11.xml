@@ -21,7 +21,9 @@
       </pubName>
       <pubDate date="1924"></pubDate>
       <pubPlace city="Toronto" state="Ontario" country="Canada"></pubPlace>
-      <pubPage>398-399</pubPage>
+      <pubPage>
+        398-399
+      </pubPage>
     </bibInfo>
     <account>
       <header>
@@ -53,46 +55,47 @@
         part to Act. At the same time, if Any of his Troops wantonly Insults this Post,
         it shall not be with impunity.
       </para>
-        <para>
-          I sincerely hope the Governor himself may soon arrive, and take all responsibility
-          upon him.
-        </para>
-        <para>
-          I trust a Reinforcement from you is not far off at present, I conceive there is
-          no danger in coming up this River, how long it may be so, is impossible for me to
-          say, at the particular request of Mr. Pilkington and Mr. Adye, I keep Captain
-          Harrow and his Sailors&#8212;I had determined otherwise just now, knowing that you
-          may have great occasion for him, but their entreaties have prevailed.
-        </para>
-        <para>
-          We have not seen or heard a word about a Savage all day&#8212;It has been a matter
-          of great comfort to me, that the Battle of Yesterday terminated without bringing
-          me into a scrape, but surely my situation is a very extraordinary one, hundreds
-          of the American Cavalry are constantly skirting the Wood all around us, and at
-          this Moment, A number of their Officers are looking at us from the Point of Colonel
-          McKee's Island. You have also enclosed the Information of a Deserter who came
-          in last Night. You will observe he mentions Lascell as being taken Prisoner, but
-          here, we all think he Deserted.
-        </para>
-        <para>
-          Drumer Bevan deserted from us this morning about Eight o'Clock, He went
-          down to the River to wash his shirts and crept through the Abatis at the Water
-          Side.
-        </para>
-        <closing>
-          I have the Honor to be, Sir, &amp;c., &amp;c.,
-          Wm. Campbell.
-        </closing>
-        <addressee>
-          Lieut. Col. England, &amp;c., &amp;c., &amp;c.
-        </addressee>
-        <source>
-          A Copy.
-          Rd. England.
-          J. G. S.
-          Endorsed:&#8212;Copy of a Letter from Major Wm. Campbell to Lieut.-Colonel England.
-          Dated Augt. 21st 1794
-          Received Augt. 23rd 1794
-          In Lt.-Gov. Simcoe's No. 34 30th Augt. 1794.
-        </source>
-      </account>
+      <para>
+        I sincerely hope the Governor himself may soon arrive, and take all responsibility
+        upon him.
+      </para>
+      <para>
+        I trust a Reinforcement from you is not far off at present, I conceive there is
+        no danger in coming up this River, how long it may be so, is impossible for me to
+        say, at the particular request of Mr. Pilkington and Mr. Adye, I keep Captain
+        Harrow and his Sailors&#8212;I had determined otherwise just now, knowing that you
+        may have great occasion for him, but their entreaties have prevailed.
+      </para>
+      <para>
+        We have not seen or heard a word about a Savage all day&#8212;It has been a matter
+        of great comfort to me, that the Battle of Yesterday terminated without bringing
+        me into a scrape, but surely my situation is a very extraordinary one, hundreds
+        of the American Cavalry are constantly skirting the Wood all around us, and at
+        this Moment, A number of their Officers are looking at us from the Point of Colonel
+        McKee's Island. You have also enclosed the Information of a Deserter who came
+        in last Night. You will observe he mentions Lascell as being taken Prisoner, but
+        here, we all think he Deserted.
+      </para>
+      <para>
+        Drumer Bevan deserted from us this morning about Eight o'Clock, He went
+        down to the River to wash his shirts and crept through the Abatis at the Water
+        Side.
+      </para>
+      <closing>
+        I have the Honor to be, Sir, &amp;c., &amp;c.,
+        Wm. Campbell.
+      </closing>
+      <addressee>
+        Lieut. Col. England, &amp;c., &amp;c., &amp;c.
+      </addressee>
+      <source>
+        A Copy.
+        Rd. England.
+        J. G. S.
+        Endorsed:&#8212;Copy of a Letter from Major Wm. Campbell to Lieut.-Colonel England.
+        Dated Augt. 21st 1794
+        Received Augt. 23rd 1794
+        In Lt.-Gov. Simcoe's No. 34 30th Augt. 1794.
+      </source>
+    </account>
+  </ftAccount>
