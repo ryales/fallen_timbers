@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+  <xs:schema xmls:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ftAccount">
+      <!-- Root element -->
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="bibInfo" maxOccurs="1">
+            <!-- Describes the bibliographic source information -->
+            <xs:complexType>
+              <xs:element name="pubArticle" type="xs:string" minOccurs="0"/>
+              <xs:element name="pubTitle" type="xs:string"/>
+              <xs:element name="pubAuthor" ref="person"/>
+              <xs:element name="pubEditor" ref="person" minOccurs="0"/>
+              <xs:element name="pubName" type="xs:string"/>
+              <xs:element name="pubVol" type="xs:integer" minOccurs="0"/>
+              <xs:element name="pubIss" type="xs:integer" minOccurs="0"/>
+              <xs:element name="pubPlace" type=""/>
+              <xs:element name="pubDate" type=""/>
+              <xs:element name="pubPage" type="" minOccurs="0"/>
+              <xs:attribute name="medium">
+                <xs:choice>
+                </xs:choice>
+              </xs:attribute>
+              <xs:attribute name="distance">
+                <xs:choice>
+                </xs:choice>
+              </xs:attribute>
+              <xs:attribute name="text">
+                <xs:choice>
+                </xs:choice>
+              </xs:attribute>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="account" maxOccurs="1">
+            <!-- Contains document text -->
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="header" minOccurs="0">
+                  <xs:complexType>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="para" maxOccurs="unbounded">
+                  <xs:complexType>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="closing" minOccurs="0">
+                  <xs:complexType>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="addressee" minOccurs="0">
+                  <xs:complexType>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+        <!-- Each ftAccount has a unique ID -->
+        <xs:attribute name="id" type="xs:ID"/>
+      </xs:complexType>
+    </xs:element>
+    <!-- Global elements contained below -->
+    <xs:element name="person">
+
+    </xs:element>
