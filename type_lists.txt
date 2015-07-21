@@ -1,5 +1,0 @@
-type: journal, letter, newspaper
-
-side: american, british, confederation
-unit: all, front_guard, rear_guard, left_guard, dragoons, left_column, center_column, right_column, artillery
-action: movement, firing, preparation, retreat, camp

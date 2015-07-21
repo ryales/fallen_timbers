@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="07">
+    <bibInfo medium="letter" distance="primary" format="book" text="copy_original">
+      <pubArticle>
+        No. 83.&#8212;To Major Genl. Knox, Secy. of War
+      </pubArticle>
+      <pubAuthor>
+        <person pID="01">
+          <pRank>Major General</pRank>
+          <pGiven>Anthony</pGiven>
+          <pSurname>Wayne</pSurname>
+        </person>
+      </pubAuthor>
+      <pubTitle>
+        Anthony Wayne Letter Books: October 23, 1793-September 20, 1794
+      </pubTitle>
+      <pubColl>
+        Anthony Wayne Family Papers, Clements Library
+      </pubColl>
+      <pubVol>32</pubVol>
+      <pubName>Wayne Family; University of Michigan</pubName>
+    </bibInfo>
+    <account>
+      <header>
+        Head Quarters
+        Grand Glaize 28th Augt. 1794.
+      </header>
+      <opening>
+        Sir,
+      </opening>
+      <para>
+        <description desCat="summary">It's with infinite pleasure that
+        I now announce to you the brilliant success
+        of the Federal Army under my command in
+        a general Action with the combined force of the
+        hostile Indians &amp; a considerable number of
+        the Voluntiers &amp; Militia of Detroit on the
+        20th. instant on the banks of the Miamis, in
+        the vicinity of the British Post &amp; Garrison
+        at the foot of the rapids.</description>
+      </para>
+      <para>
+        <action actCat="movement" who="US Army">The army advanced from this
+        place on the 15th instant and arrived at
+        Roche de bout on the 18th.</action>; <action actCat="preparation" who="US Army">the 19th. we were
+        employed in making a temporary post for
+        the reception of our stores &amp; baggage &amp; in
+        reconnoitering the position of the enemy</action>, <action actCat="position" who="Native Confederacy">who
+        were encamped behind a thick brushy-wood
+        and the British Fort</action>.
+      </para>
+      <para>
+        <action actCat="mobilization" who="US Army">At 8. o'clock on the morning of the
+        20. the Army again advanced in columns</action>
+        agreeably to the standing order of march:
+        <description desCat="formation">the Legion on the right Flank covered by
+        the Miamis, one Brigade of mounted Voluntiers
+        on the left under <person pID="36"><pRank>Brigadier General</pRank>
+        <pSurname>Todd</pSurname></person>, and the other in the rear under <person pID="37"><pRank stRank="Brigadier General">Brigadr
+        General</pRank> <pSurname>Barbee</pSurname></person>: a select battalion of mounted
+        voluntiers moved in front of the Legion, commanded
+        by <person pID="34"><pRank>Major</pRank> <pSurname>Price</pSurname></person>, who was directed
+        to keep sufficiently advanced&#8212;so as to give
+        timely notice for the troops in case of action</description>.;
+      </para>
+      <para>
+        <description desCat="diplomacy">It being yet undetermined whether the
+        Indians wou'd decide on peace or war.</description>
+      </para>
+      <para>
+        After <action actCat="movement" who="US Army">advancing about five miles</action>, <action actCat="battle" who="Front Guard"><person pID="34"><pRank>Major</pRank> <pSurname>Price</pSurname></person>'s
+        corps received so severe a fire from the enemy, who
+        were secreted in the woods &amp; high grass, as to
+        compel them to retreat</action>.&#8212;
+      </para>
+      <para>
+        <action actCat="mobilization" who="US Legion">The Legion was immediately formed
+        in two lines</action>, principally in <description desCat="landscape">a close thick wood
+        which extended for miles on our left; and
+        for very considerable distance in front, the
+        ground being cover'd with old fallen timber
+        probably occasioned by a tornado, which
+        rendered it impracticable for the Cavalry
+        to act with effect, &amp; afforded the enemy the
+        most favorable covert for their savage mode
+        of warfare</description>: <description desCat="formation">they were formed in three lines
+        within supporting distance of each other, &amp;
+        extending near two miles at right angles
+        with the river</description>.&#8212;
+      </para>
+      <para>
+        I soon discovered from the weight
+        of the fire, &amp; extent of their lines that <action actCat="battle" who="Native Confederacy">the
+        enemy were in full force in front in possession
+        of their favorite ground &amp; endeavoring to turn
+        our left flank</action>, <action actCat="battle" who="Kentucky Volunteer Cavalry">I therefore gave orders,
+        for the second line to advance to support
+        the first, &amp; directed <person pID="06"><pRank stRank="Brigadier General">Major General</pRank> <pSurname>Scott</pSurname></person> to
+        gain &amp; turn the right flank of the savages,
+        with the whole of the mounted Voluntiers
+        by a circuitous route</action>: at the same time <action actCat="battle" who="US Legion">I ordered
+        the front line to advance &amp; charge with trailed
+        arms, &amp; rouse the Indians from their
+        coverts at the point of the bayonet, &amp; when up,
+        to deliver a close &#8212; well directed fire on their
+        backs followed by a brisk charge&#8212;so as not
+        to give time to load again</action>:&#8212;<action actCat="battle" who="Right Dragoons">I also ordered
+        <person pID="05"><pRank stRank="Captain">Capt</pRank> <pSurname>Mis Campbell</pSurname></person> who commanded the Legionary
+        Cavalry to turn the left flank of the enemy
+        next the river, and which afforded a favorable
+        field for that corps to act in.</action>&#8212;
+      </para>
+      <para>
+        All those orders were obeyed with
+        spirit &amp; promptitude&#8212;but <action actCat="battle">such was the impetuosity
+        of the charge by the first line of
+        Infantry, that the Indians &amp; Canadian
+        militia &amp; voluntiers were drove from all their
+        coverts in so short a time, that although
+        every possible exertion was used by the Officers of
+        the second line of <unit name="US Legion">the Legion</unit>, &amp; by <person pID="06"><pRank stRank="General">Generals</pRank>
+        <pSurname>Scott</pSurname></person>, <person pID="36"><pSurname>Todd</pSurname></person> &amp; <person pID="37"><pSurname>Barbee</pSurname></person> of the mounted voluntiers
+        to gain their proper positions, but
+        part of each could get up in season to participate
+        in the action</action>; <action actCat="retreat" who="Native Confederacy">the enemy being drove
+        in the course of one hour more than two
+        miles thro' the thick woods already mentioned,
+        by less than one half their numbers</action>.&#8212;
+      </para>
+      <para>
+        <description desCat="strength">From every account the enemy amounted
+        to two thousand combatants: the troops actually
+        engaged against them were short of nine-hundred.</description>&#8212;<action actCat="retreat" who="Native Confederacy">this
+        horde of savages with their
+        allies abandoned themselves to flight, and
+        dispersed with terror &amp; dismay; leaving our
+        victorious Army in full &amp; quiet possession of
+        the field of battle</action>, which <action actCat="diplomacy">terminated under
+        the influence of the guns of the British Garrison
+        as you will observe by the enclosed correspondence
+        between <person pID="03"><pRank>Major</pRank> <pSurname>Campbell</pSurname></person> the Commandant
+        &amp; <person pID="01">myself</person> upon the occasion</action>.&#8212;
+      </para>
+      <para>
+        <description desCat="commentary">The bravery &amp; conduct of every
+        Officer belonging to the Army from the Generals
+        down to the Ensigns merits my highest
+        approbation.</description>&#8212;there were however some, whose
+        rank &amp; situation placed their conduct in a
+        very conspicuous point of view, and which I
+        observed with pleasure &amp; the most lively
+        gratitude: among whom <action actCat="commendation">I must beg leave
+        to mention <person pID="02"><pRank stRank="Brigadier General">Brigr. Genl.</pRank> <pSurname>Wilkinson</pSurname></person> and <person pID="23"><pRank stRank="Colonel">Colo.</pRank>
+        <pSurname>Hamtramck</pSurname></person>, the commandants of the right
+        &amp; left wings of the Legion, whose brave example
+        inspired the troops</action>; to them I must add <action actCat="commendation" who="Aids de Camp">the
+        names of my faithful &amp; gallant <person pID="25"><pTitle stTitle="Aid de Camp">Aids de Camp</pTitle>
+        <pRank stRank="Captain">Captain's</pRank> <pSurname>De Butts</pSurname></person> &amp; <person pID="53"><pRank stRank="Captain"></pRank><pGiven>T.</pGiven> <pSurname>Lewis</pSurname></person> &amp; <person pID="52"><pRank stRank="Lieutenant">Lieut.</pRank> <pSurname>Harrison</pSurname></person>
+        who, with the <person pID="38"><pTitle stTitle="Adjutant General">Adjt. General</pTitle> <pRank>Major</pRank> <pSurname>Mills</pSurname></person> rendered
+        the most essential services by communicating
+        my orders in every direction, &amp; by their
+        conduct &amp; bravery, exciting the troops to
+        press for victory</action>.&#8212;<action actCat="battle"><person pID="30"><pRank stRank="Lieutenant">Lieut.</pRank> <pSurname>Covington</pSurname></person> upon
+        whom the Command of the Cavalry now
+        devolved, cut down two savages with his
+        own hand</action> &amp; <action actCat="commendation"><person pID="29"><pRank stRank="Lieutenant">Lieut.</pRank> <pSurname>Webb</pSurname></person> one, in turning
+        the enemy's left flank</action>.&#8212;
+      </para>
+      <para>
+        <action actCat="casualty" who="US Officers">The wounds received by <person pID="17"><pRank stRank="Captain">Capts.</pRank>
+        <pSurname>Slough</pSurname></person> &amp; <person pID="18"><pRank stRank="Captain"></pRank><pSurname>Prior</pSurname></person> &amp; <person pID="19"><pRank stRank="Lieutenant">Lieut</pRank> <pGiven>Campbell</pGiven> <pSurname>Smith</pSurname></person>
+        (an extra aid de Camp to <person pID="02"><pRank stRank="General">Genl</pRank> <pSurname>Wilkinson</pSurname></person>) of
+        the Legionary Infantry, &amp; <person pID="10"><pRank stRank="Captain">Capt.</pRank> <pSurname>Van Ransselaer</pSurname></person>
+        of the Dragoons, &amp; <person pID="39"><pRank stRank="Captain">Capt.</pRank> <pSurname>Rawlins</pSurname></person>,
+        <person pID="40"><pRank stRank="Lieutenant">Lieut</pRank> <pSurname>McKenney</pSurname></person> &amp; <person pID="41"><pRank>Ensign</pRank> <pSurname>Duncan</pSurname></person> of the
+        mounted Voluntiers bear honorable
+        testimony of their bravery &amp; conduct.</action>&#8212;
+      </para>
+      <para>
+        <action actCat="commendation"><person pID="15"><pRank stRank="Rank">Captains</pRank> <pGiven stGiven="Howell">H.</pGiven> <pSurname>Lewis</pSurname></person> &amp; <person pID="42"><pRank stRank="Captain"></pRank><pSurname>Brock</pSurname></person> with their
+        companies of light Infantry had to sustain
+        an unequal fire for some time, which they
+        supported with fortitude.</action>&#8212;<description desCat="commentary">In fact every
+        officer &amp; soldier who had an opportunity to
+        come into Action displayed that true bravery
+        which will always insure success.</description>&#8212;
+      </para>
+      <para>
+        And here permit me to declare,
+        that <description desCat="commendation"><person pID="01">I</person> never discovered more true spirit
+        and anxiety for action than appeared to pervade
+        the whole of the <unit name="Mounted Kentucky Volunteers">mounted voluntiers</unit>; &amp; <person pID="01">I</person> am
+        well persuaded that had the enemy mantained
+        their favorite ground but for one half hour
+        longer, they would have most severely felt
+        the prowess of that corps</description>.&#8212;
+      </para>
+      <para>
+        but, <action actCat="casualty" who="US Officers">whilst <person pID="01">I</person> pay this just tribute
+        to the living, <person pID="01">I</person> must not forget the gallant
+        dead: among whom we have to lament the
+        early death of those worthy &amp; brave Officers
+        <person pID="05"><pRank stRank="Captain">Capt.</pRank> <pSurname stSurname="Mis Campbell">Miss Campbell</pSurname></person> of the Dragoons and
+        <person pID="04"><pRank stRank="Lieutenant">Lieut.</pRank> <pSurname>Towles</pSurname></person> of the light Infantry of the
+        Legion who fell in the first charge.</action>&#8212;
+      </para>
+      <para>
+        <action actCat="casualty">Enclosed is a particular return of
+        the killed &amp; wounded&#8212;the loss of the Enemy
+        was more than double, that of the Federal
+        Army</action>&#8212;<action actCat="casualty" who="Native Confederacy">the woods were strewed for a considerable
+        distance with the dead bodies of
+        Indians &amp; their white auxiliaries, the
+        latter, armed with British muskets and
+        bayonets</action>.&#8212;
+      </para>
+      <para>
+        We remained three days &amp; nights
+        on the banks of the Miamis in front of the
+        field of battle, during which time <action actCat="destruction" who="US Army">all the
+        houses &amp; corn fields were consumed &amp; destroyed
+        for a considerable distance both above and
+        below Fort Miamis, as well as within pistol
+        shot of that Garrison, who were compelled
+        to remain tacit spectators of this general devestation
+        &amp; conflagration.&#8212;among which were the
+        houses, stores &amp; property of <person pID="24"><pRank>Colo.</pRank> <pSurname>McKee</pSurname> <pTitle>the British
+        Indian Agent</pTitle></person> &amp; principal stimulator of the
+        war now existing between the United States
+        and the savages.</action>&#8212;
+      </para>
+      <para>
+        The Army returned to this place
+        on the 27. by easy marches, <action actCat="destruction" who="US Army">laying waste the
+        villages &amp; cornfields for about fifty miles
+        on each side of the Miamis: there remains
+        yet a number of villages &amp; a great quantity
+        of corn to be consumed or destroyed upon
+        Au Glaize &amp; the Miamis above this place,
+        which will be effected in the course of a
+        few days</action>.&#8212;in the interim we shall improve
+        Fort Defiance, &amp; as soon as the escort returns
+        with the necessary supplies from Greeneville
+        &amp; Fort Recovery, <action actCat="plan" who="US Army">the Army will proceed to
+        the Miami villages in order to accomplish
+        the object of the Campaign</action>.&#8212;
+      </para>
+      <para>
+        <description desCat="speculation">It is however not improbable
+        that the enemy may make one more desperate
+        effort against the Army; as it is said that a
+        reenforcement was hourly expected at Fort
+        Miamis from Niagara, as well as numerous
+        tribes of Indians living on the margins
+        &amp; Islands of the Lakes</description>: this is a business
+        rather to be wished for than dreaded, whilst
+        the Army remains in force&#8212;their numbers
+        will only tend to confuse the savages, and the
+        victory will be the more complete and
+        decisive,&#8212;and which may eventually ensure
+        a permanent &amp; happy peace.
+      </para>
+      <closing>
+        Under these Impressions, I have
+        the honor to be
+
+        your most obedt.
+        &amp; very huml. Sert.
+
+        <person pID="01"><pGiven stGiven="Anthony">Anty.</pGiven> <pSurname>Wayne</pSurname></person>
+      </closing>
+      <addressee>
+        <person pID="43">The Honble.
+        <pRank stRank="Major General">Maj. Gen.</pRank> <pSurname>Knox</pSurname>
+        <pTitle stTitle="US Secretary of War">Secy. of War.</pTitle></person>
+      </addressee>
+      <postscript>
+        <action actCat="diplomacy">NB. <person pID="01">I</person> had forgot to mention that <person pID="01">I</person> met my
+        Flag on the <date when="1794-08-16">16.</date>, who was returning with an
+        evasive answer in order to gain time
+        for the arrival of the reenforcement mentioned
+        by the Shawanoe Indians, &amp; which actually
+        did arrive two days before the action.</action>
+      </postscript>
+    </account>
+  </ftAccount>
+</ftAccounts>

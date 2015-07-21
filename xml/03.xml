@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="03">
+    <bibInfo medium="journal" distance="primary" format="book" text="edited_original">
+      <pubTitle>A Journal of Wayne's Campaign: Being an Authentic Daily Record of the most Important Occurrences during the Campaign of Major General Anthony Wayne, against the Northwestern Indians; Commencing on the 28th day of July, and ending on the 2d day of November, 1794; including an account of the great battle of August 20th</pubTitle>
+      <pubAuthor>
+        <person pID="20">
+          <pGiven>John</pGiven>
+          <pSurname>Boyer</pSurname>
+        </person>
+      </pubAuthor>
+      <pubName>Jno. F. Uhlhorn</pubName>
+      <pubPlace city="Cincinnati" state="Ohio"></pubPlace>
+      <pubDate date="1866">1866</pubDate>
+      <pubPage>7-8</pubPage>
+    </bibInfo>
+    <account>
+      <header>
+        <place placeID="02">Camp in sight of a British garrison, on the Miamis of the Lake</place>,
+        <date when="1794-08-20">August 20th, 1794</date>&#8212;one hundred and fifty miles from <place placeID="03">Greenville</place>.
+      </header>
+      <para>
+        This day <action actCat="preparation" who="US Legion">the legion, after depositing every kind of baggage</action>,
+        <action actCat="movement" who="US Legion">took up the line of march at 7 o'clock, and continued their
+        route down the margin of the river, without making any
+        discovery</action>, until <action actCat="battle" who="Front Guard">11 o'clock, when the front guard, which was
+        composed of mounted volunteers, were fired on by the enemy</action>.
+        <action actCat="movement" who="Front Guard">The guard retreated in the utmost confusion through the front
+        guard of the regulars, commanded by <person pID="14"><pRank>Captain</pRank> <pSurname>Cook</pSurname></person> and
+        <person pID="13"><pRank>Lieutenant</pRank> <pSurname>Steele</pSurname></person>, who, in spite of their utmost exertion,
+        made a retreat.</action> <action actCat="battle" who="US Legion">These fell in with the left of <person pID="15"><pRank>Captain</pRank>
+        <pGiven>Howell</pGiven> <pSurname>Lewis</pSurname></person>' company of light infantry and threw that part
+        of the men into confusion</action>, which <action actCat="battle" who="US Legion"><person pID="15"><pRank>Captain</pRank> <pSurname>Lewis</pSurname></person> observing, he
+        ordered the left of his company to retreat about forty yards,
+        where he formed them and joined the right, which had stood
+        their ground</action>. <action actCat="battle" who="US Legion">They continued in this position until they
+        were joined by part of <person pID="16"><pRank>Captain</pRank> <pSurname>Springer</pSurname></person>'s battalion of riflemen,
+        which was nearly fifteen minutes after the firing commenced,
+        who drove the enemy that had attempted to flank us on the
+        right</action>. Nearly at the same time, <action actCat="movement" who="1st and 3rd Sub-legions">the right column came up,
+        and the charge was sounded</action>&#8212;<action actCat="movement" who="Native Confederacy">the enemy gave way and fired
+        scattering shots as they run off</action>.
+      </para>
+      <para>
+        About the time the right column came up, <action actCat="battle" who="2nd and 4th Sub-legions">a heavy firing
+        took place on the left, which lasted but a short time</action>, <action actCat="movement" who="Native Confederacy">the
+        enemy giving way in all quarters</action>, which left us in possession
+        of <action actCat="casualty" who="Native Confederacy">their dead to the number of forty</action>. <action actCat="casualty" who="US Army">Our loss was thirty
+        killed and one hundred wounded.</action> Among the former we have to lament <action actCat="casualty" who="US Officers">the loss of <person pID="05"><pRank>Captain</pRank> <pSurname stSurname="Mis Campbell">Miss Campbell</pSurname></person> of the
+        dragoons, and <person pID="04"><pRank>Lieutenant</pRank> <pGiven stGiven="Henry Beverly">Henry B.</pGiven> <pSurname stSurname="Towles">Fowles</pSurname></person> of the 4th sub-legion;
+        and of the latter, <person pID="18"><pRank stRank="Captain">Captains</pRank> <pSurname>Prior</pSurname></person> of the first, <person pID="17"><pSurname>Slough</pSurname></person>
+        of the fourth, and <person pID="10"><pSurname>Van Rensselaer</pSurname></person> of the dragoons, also
+        <person pID="19"><pRank>Lieutenant</pRank> <pGiven>Campbell</pGiven> <pSurname>Smith</pSurname></person> of the fourth sub-legion</action>. <description desCat="speculation">The
+        whole loss of the enemy cannot at present be ascertained, but
+        it is more than probable it must have been considerable</description>, for
+        <action actCat="movement" who="US Army">we pursued them with rapidity for nearly two miles</action>. <description desCat="strength">As to
+        the number of the enemy engaged in this action, opinions are
+        so various that <person pID="20">I</person> am at a loss to know what to say; the most
+        general opinion is one thousand five hundred, one-third of
+        which are supposed to be Canadians; I am led to believe this
+        number is not over the mark</description>. After <action actCat="rest" who="US Army">the troops had taken
+        some refreshment</action>, <action actCat="movement" who="US Legion">the legion continued their route down the
+        river, and encamped in sight of the British garrison</action>. <action actCat="prisoner" who="US Army">One
+        Canadian fell into our hands, who we loaded with irons.</action>
+      </para>
+    </account>
+  </ftAccount>
+</ftAccounts>

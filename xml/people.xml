@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<people>
+    <person pID="01">
+        <pRank>Major General</pRank>
+        <pGiven>Anthony</pGiven>
+        <pSurname>Wayne</pSurname>
+        <pAllegiance>USA</pAllegiance>
+        <pCommand>Legion</pCommand>
+    </person>
+    <person pID="02">
+        <pRank>Brigadier General</pRank>
+        <pGiven>James</pGiven>
+        <pSurname>Wilkinson</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="03">
+        <pRank>Major</pRank>
+        <pGiven>William</pGiven>
+        <pSurname>Campbell</pSurname>
+        <pAllegiance>Great Britain</pAllegiance>
+    </person>
+    <person pID="04">
+        <pRank>Lieutenant</pRank>
+        <pGiven>Henry Beverly</pGiven>
+        <pSurname>Towles</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="05">
+        <pRank>Captain</pRank>
+        <pGiven>Robert</pGiven>
+        <pSurname>Mis Campbell</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="06">
+        <pRank>General</pRank>
+        <pGiven>Charles</pGiven>
+        <pSurname>Scott</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="07">
+        <pGiven>Eli</pGiven>
+        <pSurname>Edmondson</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="08">
+        <pRank>Lieutenant</pRank>
+        <pGiven>Percy</pGiven>
+        <pSurname>Pope</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="09">
+        <pRank>Captain</pRank>
+        <pGiven>John</pGiven>
+        <pSurname>Price</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="10">
+        <pRank>Lieutenant</pRank>
+        <pGiven>Solomon</pGiven>
+        <pSurname>Van Rensselaer</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="11">
+        <pGiven>John</pGiven>
+        <pSurname>O'Brion</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="12">
+        <pGiven>George</pGiven>
+        <pSurname>May</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person> 
+    <person pID="13">
+        <pRank>Lieutenant</pRank>
+        <pSurname>Steele</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="14">
+        <pRank>Captain</pRank>
+        <pSurname>Cook</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="15">
+        <pRank>Captain</pRank>
+        <pGiven>Howell</pGiven>
+        <pSurname>Lewis</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="16">
+        <pRank>Captain</pRank>
+        <pSurname>Springer</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="17">
+        <pRank>Captain</pRank>
+        <pSurname>Slough</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="18">
+        <pRank>Captain</pRank>
+        <pSurname>Prior</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="19">
+        <pRank>Lieutenant</pRank>
+        <pGiven>Campbell</pGiven>
+        <pSurname>Smith</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="20">
+        <pGiven>John</pGiven>
+        <pSurname>Boyer</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="21">
+        <pGiven>Thomas Taylor</pGiven>
+        <pSurname>Underwood</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="22">
+        <pGiven>William</pGiven>
+        <pSurname>Clark</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="23">
+        <pRank>Colonel</pRank>
+        <pGiven>Jean-François</pGiven>
+        <pSurname>Hamtramck</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="24">
+        <pRank>Colonel</pRank>
+        <pGiven>Alexander</pGiven>
+        <pSurname>McKee</pSurname>
+        <pAllegiance>Great Britain</pAllegiance>
+    </person>
+    <person pID="25">
+        <pRank>Captain</pRank>
+        <pSurname>De Butts</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="26">
+        <pSurname>Gaines</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="27">
+        <pRank>Captain</pRank>
+        <pSurname>Kingsbury</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="28">
+        <pRank>Captain</pRank>
+        <pGiven>Bartholomew</pGiven>
+        <pSurname>Schamburgh</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="29">
+        <pRank>Lieutenant</pRank>
+        <pSurname>Webb</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="30">
+        <pRank>Lieutenant</pRank>
+        <pSurname>Covington</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="31">
+        <pGiven>R</pGiven>
+        <pSurname>Elliot</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="32">
+        <pRank>Captain</pRank>
+        <pSurname>Ford</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="33">
+        <pRank>Ensign</pRank>
+        <pSurname>Claiborne</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="34">
+        <pRank>Major</pRank>
+        <pSurname>Price</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="35">
+        <pRank>Captain</pRank>
+        <pSurname>Baker</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="36">
+        <pRank>Brigadier General</pRank>
+        <pSurname>Todd</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="37">
+        <pRank>Brigadier General</pRank>
+        <pSurname>Barbee</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="38">
+        <pRank>Major</pRank>
+        <pGiven>John</pGiven>
+        <pSurname>Mills</pSurname>
+        <pAllegiance>USA</pAllegiance>
+        <pTitle>Aide de Camp</pTitle>
+    </person>
+    <person pID="39">
+        <pRank>Captain</pRank>
+        <pSurname>Rawlins</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="40">
+        <pRank>Lieutenant</pRank>
+        <pSurname>McKenney</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="41">
+        <pRank>Ensign</pRank>
+        <pSurname>Duncan</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="42">
+        <pRank>Captain</pRank>
+        <pSurname>Brock</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="43">
+        <pRank>Major General</pRank>
+        <pGiven>Henry</pGiven>
+        <pSurname>Knox</pSurname>
+        <pAllegiance>USA</pAllegiance>
+        <pTitle>US Secretary of War</pTitle>
+    </person>
+    <person pID="42">
+        <pRank>Chief</pRank>
+        <pSurname>Little Otter</pSurname>
+        <pAllegiance>Native American</pAllegiance>
+    </person>
+    <person pID="43">
+        <pRank>Chief</pRank>
+        <pSurname>Agushway</pSurname>
+        <pAllegiance>Native American</pAllegiance>
+    </person>
+    <person pID="44">
+        <pGiven>Joseph</pGiven>
+        <pSurname>Chew</pSurname>
+        <pAllegiance>Great Britain</pAllegiance>
+    </person>
+    <person pID="45">
+        <pRank>Captain</pRank>
+        <pSurname>Harrow</pSurname>
+        <pAllegiance>Great Britain</pAllegiance>
+    </person>
+    <person pID="46">
+        <pRank>Lieutenant</pRank>
+        <pSurname>Selbie</pSurname>
+        <pAllegiance>Great Britain</pAllegiance>
+    </person>
+    <person pID="47">
+        <pRank>Lieutenant Colonel</pRank>
+        <pGiven>R G</pGiven>
+        <pSurname>England</pSurname>
+        <pAllegiance>Great Britain</pAllegiance>
+    </person>
+    <person pID="48">
+        <pRank>Brigadier General</pRank>
+        <pGiven>E A</pGiven>
+        <pSurname>Cruikshank</pSurname>
+    </person>
+    <person pID="49">
+        <pSurname>Randolph</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="50">
+        <pGiven>Richard C.</pGiven>
+        <pSurname>Knopf</pSurname>
+    </person>
+    <person pID="51">
+        <pRank>Captain</pRank>
+        <pSurname>Arnold</pSurname>
+        <pAllegiance>USA</pAllegiance>
+    </person>
+    <person pID="52">
+        <pRank>Lieutenant</pRank>
+        <pGiven>William Henry</pGiven>
+        <pSurname>Harrison</pSurname>
+        <pAllegiance>USA</pAllegiance>
+        <pTitle>Aide de Camp</pTitle>
+    </person>
+    <person pID="53">
+        <pRank>Captain</pRank>
+        <pGiven>T.</pGiven>
+        <pSurname>Lewis</pSurname>
+        <pAllegiance>USA</pAllegiance>
+        <pTitle>Aide de Camp</pTitle>
+    </person>
+</people>

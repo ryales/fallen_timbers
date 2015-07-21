@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="02">
+    <bibInfo medium="journal" distance="primary" format="book" text="edited_reprint">
+      <pubTitle>A Precise Journal of General Wayne's Last Campaign in the year 1794, against the western Indians, taken down in the course of the campaign: With an account of an attack made of an attack made on Fort Recovery, by the Indians, on the 30th June preceding</pubTitle>
+      <pubAuthor>
+        <person pID="49">
+          <pSurname>Randolph</pSurname>
+        </person>
+      </pubAuthor>
+      <pubEditor>
+        <person pID="50">
+          <pGiven>Richard C.</pGiven>
+          <pSurname>Knopf</pSurname>
+        </person>
+      </pubEditor>
+      <pubName>American Antiquarian Society</pubName>
+      <pubDate date="1954">1954</pubDate>
+      <pubPage>290-291</pubPage>
+    </bibInfo>
+    <account>
+      <header>
+        <date when="1794-08-20">AUGUST 20th.</date>
+      </header>
+      <para>
+        <description desCat="weather">Prevented from marching this Morning at the appointed Hour
+        by <weather>Rain</weather></description>; but <action actCat="movement" who="US Army">at 7 o'Clock the Line of March is taken up and continued
+        in the most perfect Order for four Miles</action>, when <action actCat="battle" who="Front Guard">a Firing
+        commenced in <unit name="Front Guard">Front</unit></action>; in a few Moments <action actCat="movement" who="Front Guard">our <unit name="Front Guard">advanced Parties</unit>
+        were compelled to retire by a superior Number</action>. In the Interim
+        <action actCat="mobilization" who="US Legion">the <unit name="US Legion">Legion</unit> was formed in two Lines</action>, but <action actCat="battle" who="US Army">the <person pID="01"><pTitle>Commander in Chief</pTitle></person>
+        finding the Enemy were gaining our left Flank, ordered the <unit name="Rear Guard">Rear
+        Line</unit> to advance to support the <unit name="Front Guard">Front</unit></action>&#8212;This done, and <action actCat="battle" who="US Army">the Whole
+        formed now in one sustaining front Line, a Charge was ordered,
+        in which the Enemy were routed and compelled to retire one Mile
+        in one Hour</action>. When the Pursuit was left, <action actCat="rest" who="US Legion">the Legion halted and
+        refreshed with an Issue of some Spirits</action>&#8212;<action actCat="burial" who="US Army">our Killed and Wounded
+        collected, the former enterred, the latter dressed and sent to Camp
+        Deposit</action>. <action actCat="casualty" who="US Officers">Among the Killed was that good, brave, gallant and
+        intrepid <person pID="05"><pRank>Captain</pRank> <pGiven>Robert</pGiven> <pSurname>Mis Campbell</pSurname></person>, of the <unit name="Right Dragoons">second Troop
+        Light Dragoons</unit>, and then commanding Officer of the Cavalry,
+        who fell in a Charge on the Enemy in an early Part of the Action</action>;
+        by which <description desCat="obituary">the Legion was deprived of one of its bravest Officers,
+        before he had an Opportunity of rendering his Country those
+        Services which were to be expected from his Bravery. It would
+        be vain for Abilities like mine to attempt to describe the deceased
+        <person pID="05"><pRank>Captain</pRank> <pSurname stSurname="Mis Campbell">Campbell</pSurname></person>'s Virtues; but to do Justice to his Memory <person pID="49">I</person>
+        cannot avoid observing, he was possessed of every Qualification
+        which constitutes the Gentleman, the Officer and a good Man:
+        and as he was when living generally loved, now that he is dead
+        description believe he is as generally lamented.</description>
+      </para>
+      <para>
+        <action actCat="casualty" who="US Officers"><person pID="04"><pRank>Lieutenant</pRank> <pGiven stGiven="Henry Beverly">Henry B.</pGiven> <pSurname>Towles</pSurname></person>, a brave and gallant Officer of the
+        4th Sub-Legion Light-Infantry, was also killed in the Course of
+        this Action</action>, and <action actCat="casualty" who="US Officers">several other intrepid Officers wounded</action>.
+      </para>
+      <para>
+        During the <action actCat="movement" who="US Legion">Halt of the Legion at this Place</action>, and while <description desCat="position">the right
+        Flankers were in Advance of the Army half a Mile</description>, <action actCat="prisoner" who="US Army">a Canadian was
+        taken, who was painted and dressed like an Indian Warrior</action>. <action actCat="movement" who="US Army">In
+        one half Hour the Whole moved some Distance father down the
+        River and within half a Mile of the Fort, where we were halted
+        and encamped under the Guns of said Garrison</action>, from which <action actCat="diplomacy">a
+        Flag was this Afternoon received&#8212;its Purport unknown</action>.
+      </para>
+      <para>
+        <action actCat="movement" who="US Army">Advanced six Miles this Day</action>.
+      </para>
+    </account>
+  </ftAccount>
+</ftAccounts>

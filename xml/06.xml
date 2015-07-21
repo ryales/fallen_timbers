@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="06">
+    <bibInfo medium="journal" distance="primary" format="article" text="edited_reprint">
+      <pubArticle>A Journal of a Campaign in the Year 1794 Under the Command of Major General Charles Scott</pubArticle>
+      <pubAuthor>
+        <person pID="00">
+          <pSurname>Anonymous</pSurname>
+        </person>
+      </pubAuthor>
+      <pubEditor>
+        <person pID="50">
+          <pGiven>Richard C.</pGiven>
+          <pSurname>Knopf</pSurname>
+        </person>
+      </pubEditor>
+      <pubTitle>Two Journals of the Kentucky Volunteers 1793 and 1794</pubTitle>
+      <pubName>The Filson Club Historical Quarterly</pubName>
+      <pubVol>27</pubVol>
+      <pubIss>3</pubIss>
+      <pubDate date="1953">1953</pubDate>
+      <pubPage>258-273; 279-281</pubPage>
+		</bibInfo>
+		<account>
+			<header>
+				Wednesday 20
+			</header>
+        <para>
+          <description desCat="weather"><weather>Clear</weather></description>, <action actCat="preparation" who="US Army">The Baggage being Deposited, in <place placeID="01">the Fortification</place></action> <action actCat="movement" who="US Army">the
+          Army moved at 6</action> in the following order <description desCat="position"><person pID="35"><pRank stRank="Captain">Capt</pRank> <pSurname>Baker</pSurname></person> &amp; <person pID="51"><pRank stRank="Captain">Capt</pRank>
+          <pSurname>Arnold</pSurname></person>'s Companies under the Comd. of <person pID="34"><pRank stRank="Major">Majr.</pRank> <pSurname>Price</pSurname></person> formd. the Front
+          or Corps of observation. <person pID="36"><pRank stRank="Brigadier General">Brigd. Genl.</pRank> <pSurname>Todd</pSurname></person> on the Left <person pID="02"><pRank stRank="Brigadier General">Genl.</pRank>
+          <pSurname>Wilkinson</pSurname></person> on the Margin of the River the artillery and bagage in
+          the Centre <person pID="37"><pRank stRank="Brigadier General">Genl</pRank> <pSurname>Barbee</pSurname></person> in the rear</description> <description desCat="landscape">the Ground for 5 miles high
+          &amp; dry open Woods tall large Oaks</description> <action actCat="battle" who="Front Guard">at 45 Minutes past 8 the
+          Front was attactd. by a number of Indians in the high Grass</action> <action actCat="battle" who="Front Guard">They
+          returnd. the fire and fell back to the Front of the Federal Army, which
+          likewise fell back untill They Formed the line of Battle</action> when <action actCat="battle" who="Right Dragoons">they
+          movd. on driving the Enemy before them the Cavelry chargd.</action> here
+          with <action actCat="casualty" who="Right Dragoons">the loss of the brave <person pID="05"><pRank stRank="Captain">Capt.</pRank> <pSurname stSurname="Mis Campbell">M. Campbell</pSurname></person> at this Time</action> <action actCat="movement" who="Kentucky Volunteer Cavalry"><person pID="36"><pRank stRank="Brigadier General">Genl</pRank>
+          <pSurname>Todd</pSurname></person> Brigade was forming a line and immediately got into action
+          after getting orders from <person pID="06"><pRank stRank="General">Genl.</pRank> <pSurname>Scott</pSurname></person> to dismount and move
+          forwards</action> in <description desCat="landscape">a lo swampy ground with a great dale of
+          fallen Timber and thick brush with Hoop and black Ash bushes which
+          rendred the place difficult to see a Man 10 yds</description> <description desCat="duration">the action Continud
+          all together 1 hour &amp; 20 Minutes with the Volunteers half an hour</description>
+          when <action actCat="retreat" who="Native Confederacy">the Indians and their white allies part British and some French
+          retired in a very precipitate manner</action> <action actCat="burial" who="Native Confederacy">leaving their dead and some of
+          their wounded on the Field</action> <action actCat="burial" who="Kentucky Volunteers">we moved back over the ground
+          collectd. the wounded</action> and moved to <action actCat="rest" who="US Army">the Federal troops where they
+          were haltd and had the wound dressd. and litters made to carry
+          them in</action>, <action actCat="movement" who="US Army">the Army then movd. forwarward within sight of the
+          British Garison where the Army incampd on a high Bank in a thick 
+          Brush.</action> <description desCat="commentary">the Action was General and conducted with propriety and
+          honour to the American Arms and <person pID="01">Their Officer</person></description> <description desCat="landscape">in sight of the
+          army was the River divided by a large Island well Cultivated with
+          Corn &amp; beans and a number of Stacks of Hay which was a pleaseing
+          sight to the Army but more particularly to the Volunteers that was
+          across the River and bringing loads of Corn and Hay in one hour
+          after the army got to the ground</description> under the Guns of the British
+          Garison <description desCat="weather">a <weather>smart Shower of Rain</weather> after the action</description>.
+				</para>
+			</account>
+  </ftAccount>
+</ftAccounts>

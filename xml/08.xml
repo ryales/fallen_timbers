@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="08">
+    <bibInfo medium="letter" distance="primary" format="book" text="edited_reprint">
+      <pubArticle>
+        From Alexander McKee to Joseph Chew
+      </pubArticle>
+      <pubAuthor>
+        <person pID="24">
+          <pRank>Colonel</pRank>
+          <pGiven>Alexander</pGiven>
+          <pSurname>McKee</pSurname>
+        </person>
+      </pubAuthor>
+      <pubEditor>
+        <person pID="48">
+          <pRank>Brigadier General</pRank>
+          <pGiven>E. A.</pGiven>
+          <pSurname>Cruikshank</pSurname>
+        </person>
+      </pubEditor>
+      <pubTitle>The Correspondence of Lieut. Governor John Graves Simcoe, with Allied Documents relating to his Administration of the Government of Upper Canada</pubTitle>
+      <pubVol>3</pubVol>
+      <pubName>
+        Ontario Historical Society
+      </pubName>
+      <pubDate date="1925"></pubDate>
+      <pubPlace city="Toronto" state="Ontario" country="Canada"></pubPlace>
+      <pubPage>7-8</pubPage>
+    </bibInfo>
+    <account>
+      <header>
+        <place placeID="09">Camp, Near Fort Miamis</place>, <date when="1794-08-27">27th Aug 1794</date>.
+      </header>      
+      <opening>
+        Dear Sir:
+      </opening>
+      <para>
+        It was not possible for me sooner to communicate the events which have lately
+        happened in this Country&#8212;<action actCat="movement" who="US Army"><person pID="01"><pRank>General</pRank> <pSurname>Wayne</pSurname></person> with an Army of Near 4000 men
+        (according to the report of deserters) made gradual approaches towards us until
+        his arrival at <place placeID="07">Roche de Bout</place> on the <date when="1794-08-17">17th Inst.</date>&#8212;where <person pID="01">he</person> fixed his head Quarters,
+        on the 18th</action>&#8212;<action actCat="prisoner" who="Native Confederacy"><person pID="12">the <pTitle>Spy</pTitle> <pSurname>May</pSurname></person> was taken, who informed the Indians it was intended
+        to attack them the Next day,&#8212;unless <person pID="01">the <pRank stRank="Major General">General</pRank></person> should determine to build a
+        Fort, in which case he would not advance until the day following</action>, <action actCat="position" who="Native Confederacy">on the 19th the
+        Indians to the number of 1300 marched Early to the most advantageous Ground</action>,
+        but <action actCat="movement" who="US Cavalry">a strong detachment of Cavalry only made their appearance and retired as
+        Soon as the Indians showed themselves</action>.
+      </para>
+      <para>
+        <action actCat="battle">On the 20th the American Army advanced and were first attacked by the left
+        of the center of the Indian line which extended near three quarters of a mile
+        obliquely upward</action>,&#8212;<action actCat="battle">the Americans Soon gave way &amp; a rapid pursuit took place
+        for about a mile where the Indian discovered the whole of the American Army
+        Posted to whom they gave Battle retiring slowly before them</action>, during this period,
+        <action actCat="battle" who="Native Confederacy">the Wyandot and Ottawas who were on the Right were Warmly Engaged by the
+        American left consisting of both Cavalry and infantry who out flanked and infiladed
+        the Indians until they retreated</action>&#8212;<action actCat="retreat" who="Native Confederacy">the whole line of the Indians then retired below
+        <place placeID="08">the Fort</place> imagining their loss to be much greater then it since appears to have been</action>
+        having seen <action actCat="casualty" who="Native Chiefs">several of their Principal Chiefs fall;&#8212;The greatest cost they have
+          sustained is in their leaders</action> <action actCat="movement" who="Native Confederacy">they halted that night at Swan Creek about six miles
+        below and were not pursued</action>, <description desCat="strength">there were never more than 400 Indians engaged during
+        the whole day and these stood the shock of a great part of their Army for upwards
+        of two hours</description> and <action actCat="casualty" who="Native Confederacy">lost in the whole but 19 men among whom are to be much lamented
+        8 Principal Chiefs of the Wyondots and two of the Ottawas, besides two more
+        wounded</action>&#8212;
+      </para>
+      <para>
+        By the reports of several deserters and from a survey of the field of Action
+        (for <action actCat="burial" who="US Army">they did not even bury but few of their dead</action>) <action actCat="casualty" who="US Army">it appears the Americans lost
+        between 3 and 400 Killed and Wounded and a great many horses</action>.&#8212;The opperations
+        of the Garrison I must leave to be detailed by those whose duty it is, but I must
+        observe to you that <action actCat="destruction" who="US Army">all the store houses, my own House with many things that
+        could not be removed were burnt by a Party of <person pID="01"><pRank>General</pRank> <pSurname>Wayne</pSurname></person>'s Army</action> within
+        sight of the Garrison. I hope soon to have the pleasure of seeing you.&#8212;At present
+        <action actCat="plan">I am waiting until the Indians whose Cornfields and Villages are totally destroyed
+        Shall determine where they and their Families will set themselves down it being a
+        matter of the highest importance to the Interest of Great Britain to prevent if
+        possible their emigrating to the Southern and western parts of the Continent,
+        they Seemingly now having lost all hopes of the Interference of Government.</action>&#8212;
+      </para>
+      <para>
+        <action actCat="diplomacy">Some letters passed between <person pID="03"><pRank>Major</pRank> <pSurname>Campbell</pSurname></person> Commanding Fort Miamis
+        &amp; <person pID="01"><pRank stRank="Major General">General</pRank> <pSurname>Wayne</pSurname></person> after the Action</action>, and <action actCat="movement" who="US Army">on the 22nd the American Army quited
+        the position they had taken within a mile of the Fort, and retreated the very same
+        way they came</action>, but whether on account of the want of Provisions, or of an order
+        from Philadelphia cannot be Certainly known.&#8212;<action actCat="destruction" who="US Army">The American Army have left
+        Evident marks of their boasted Humanity behind them besides scalping and mutilating
+        the Indians who were killed in Action, they have opened the Peaceful Graves
+        in different parts of the Country, Exposed the Bones of the consumed &amp; consuming
+        bodies, and horrid to relate have with unparalleled barbarity driven stakes
+        through them and left them objects calling for more than human Vengeance.</action>
+      </para>
+      <closing>
+        I am with great Regard &amp; Esteem, Dear Sir
+        Yours Very Sincerely
+        <person pID="24"><pGiven stGiven="Alexander">A.</pGiven> <pSurname>McKee</pSurname></person>
+      </closing>
+      <addressee>
+        Montreal 20th Sept 1794.
+        A True Copy
+        <person pID="44"><pGiven>Joseph</pGiven> <pSurname>Chew</pSurname>, <pTitle stTitle="Secretary of Indian Affairs">S.I.A.</pTitle></person>
+      </addressee>
+    </account>
+  </ftAccount>
+</ftAccounts>

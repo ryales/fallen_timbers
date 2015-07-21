@@ -1,0 +1,52 @@
+/*
+ * Author: Rachel Yales
+ * INSTGO37 XML
+ * Instructor: Simon Mahony
+ * FT Battle Accounts Website Styling
+ */
+
+.container {
+    max-width: 95%;
+}
+
+.events {
+    background-color: #eaeaec;
+    border-radius: 15px;
+}
+
+.col-md-7 li {
+    padding-top: 10px;
+}
+
+.col-md-7 p {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.col-md-8 p {
+    padding: 20px;
+}
+
+.navbar-default .navbar-header {
+	color: #2b9eff;
+	font-size: 50px;
+	font-variant: small-caps;
+}
+
+.navbar-default {
+	background: transparent;
+	font-size: 25px;
+	padding-top: 15px;
+	border: none
+}
+
+p {
+    font-family: "Gill Sans MT", "Helvetica", sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+.hang {
+    padding-left: 22px;
+    text-indent: -22px;
+}

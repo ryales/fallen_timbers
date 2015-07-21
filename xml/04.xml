@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="04">
+    <bibInfo medium="journal" distance="primary" format="article" text="edited_reprint">
+      <pubTitle>William Clark's Journal of General Wayne's Campaign</pubTitle>
+      <pubAuthor>
+        <person pID="">
+          <pGiven>William</pGiven>
+          <pSurname>Clark</pSurname>
+        </person>
+      </pubAuthor>
+      <pubEditor>
+        <person pID="">
+          <pGiven>R. C.</pGiven>
+          <pSurname>McGrane</pSurname>
+        </person>
+      </pubEditor>
+      <pubName>The Mississippi Valley Historical Review</pubName>
+      <pubVol>1</pubVol>
+      <pubIss>3</pubIss>
+      <pubDate date="1914">1914</pubDate>
+      <pubPage>428-430</pubPage>
+    </bibInfo>
+    <account>
+      <header>
+        <date when="1794-08-20">20th August 94</date>&#8212;
+      </header>
+      <para>
+        <description desCat="weather">A <weather>sower of Rain</weather> prevented our move at the
+        houre appointed</description>, but <action actCat="movement" who="US Army">we took up the Line of March at 7 o'Clock</action> and
+        <description desCat="landscape">found the way extremely bad, much embarrassed by the thickness of
+        the woods on the left and by a number of Steep Reviens on the Right</description>,
+        after proceeding about 2 hours <action actCat="battle" who="Front Guard">our Spies &amp; advance guard Discovered
+        the Enemy and received their fire</action>, but <action actCat="movement" who="Front Guard">with inconsiderable Loss were
+        driven back and joined the main Body of the Army</action>, by this time <action actCat="battle" who="2nd and 4th Sub-legions">the
+        Right division, Comded by <person pID="02"><pRank stRank="Brigadier General">Genl.</pRank> <pSurname>Wilkinson</pSurname></person> felt the effects of the Enemeys
+        fire, they was immediately formed &amp; returned the fire</action>, at this period
+        <action actCat="battle" who="Right Dragoons"><person pID=""><pRank>Capt.</pRank> <pSurname>Campbell</pSurname></person> troop made a charge in which he fell &amp; his Troop immediately
+        proceeded through surported by the Infantry's charge</action> which
+        <action actCat="battle" who="Native Confederacy">oblidged the enemey to quit theire position and look for more advantagous
+        ground. on our Left &amp; they made an exertion to gaine that Flank</action>
+        but <action actCat="battle" who="1st and 3rd Sub-legions"><person pID="23"><pRank>Colo</pRank> <pSurname>Hamtramck</pSurname></person> who commanded in that Quarter was perpared &amp;
+        gave them so warm a recption as made theire Situation here as disagreeable
+        as that on the Right</action>, and <action actCat="battle" who="US Legion">the charge both on the Right &amp; left both
+        became Genl. &amp; the Enemy was repulsed with precipation</action>; <action actCat="battle" who="Kentucky Volunteers Cavalry">The charge
+        of the Cavelry closed the seene in front &amp; drove the Enemey 3/4 of a
+        mile at the same instant</action>, <action actCat="battle" who="Left Flank">The Riflemen &amp; Light Infantry, receved a
+        most heavy fire, on the extreem left flank</action>, <action actCat="casualty" who="US Officers">The Entrepid <person pID="04"><pRank stRank="Lieutenant">Lieut.</pRank> <pSurname stSurname="Towles">Towls</pSurname></person>
+        fell</action> at this fire, <action actCat="battle" who="US Army">We drove the Enemy for about one mile directly out</action>,
+        with <action actCat="casualty" who="US Army">the Loss of <person pID="04"><pRank stRank="Lieutenant">Lieut.</pRank> <pSurname stSurname="Towles">Towls</pSurname></person> &amp; a fiew Infantry on our Side</action>, in this
+        quater <action actCat="casualty" who="Native Confederacy">was Killed 3 white men &amp; several Indians mostly by the Riflemen</action>.
+        <action actCat="rest" who="US Army">the Troops were now refreshed with 1/2 a gill of Whiskey</action> which
+        they much required as <description desCat="duration">the action continued more then an houre, the
+        greater part of which time they were in full Speed pressing the Enemey</description>&#8212;after
+        remaining on this ground a fiew hours <action actCat="rest" who="US Army">Dureing which time the
+        wounded were Brought in Dressed &amp;c</action> <action actCat="movment" who="US Army">we proceeded within about one
+        mile of the British Garrison and there took up our Encampment</action>.
+      </para>
+      <para>
+        <description desCat="criticism">I shall now make a fiew observations or reflections on the Buisness of
+        this day. Had the Enemey for once forsaken theire long established
+        mode of fighting (Viz) that of extending theire lines so as to gaine the
+        flanks of theire advasary&#8212;for by this means they so weakened themselves
+        in all points as not to be able to make but a feable resistance in
+        any one, much less beat &amp; confuse the lines of theire opposers, which in
+        this case they might have easily done, had they kept themselves compact
+        and advanced with Judgement. (I say had the Enemey been formed in
+        tolerable close orders and advanced in the first instance, close on the heals
+        of our retireing Spies &amp; Advanced guard, I am Satisfied they would
+        have made a Breach in any part of our Columns as our Front was so extended
+        as to render the whole in any one part, unequal to the resistants
+        of a well formed body rapidly advancing on them, besides our orders or
+        mode of Formation required very considerable time to performe the perparitory
+        Evolutions: on the other hand, had the Kentucky Volunters
+        (who composed half of our forces) been so disposed of as to have
+        gained the reare of the Enemy soon after they commenced the attack,
+        Then I am Satisfied we should had the pleasure of seeing every Head of
+        this dreaded Hydra at our feet; but from theire Situation or (as some
+        say for the want of orders) they were so far from gaining this grand
+        position, that not more then 300 out of 1500 well mounted Riflemen were
+        ever brought to action, and they but a fiew moments. Cannot but be
+        astonished when the world informed that the <person pID="01"><pTitle stTitle="Commander in Chief">Comdr in Chief</pTitle></person> had been
+        told on the day previous to the action, by an officere of Rank an credebillity
+        (<person pID="34"><pRank stRank="Major">Majr</pRank> <pSurname>Price</pSurname></person> of the Volunteers who commd a sort of Independant
+        partizan-corps and had been sent for the Express purpose) that the
+        Enemey were laying in wait for us &amp; formed in Such a possition" &amp; also
+        gave His Excellency an exact Discription of the ground I say, the
+        whole world cannot but be surprised that the <person pID="01"><pTitle stTitle="Commander in Chief">Comdr in Chief</pTitle></person> did not
+        availe himself of this advantage &amp; by throwing the Voluntiers in the
+        reare of the Enemey &amp; eventually cut off theire retreat: but so far was
+        his Excelcy from thus putting an end to this expensive war (I believe
+        that the atack of the Enemey at the time it happined was actually a matter
+        of Surprise to almost every officer in the army</description>&#8212;<action actCat="burial" who="US Army">The Bodies of Capt.
+        Campbell &amp; <person pID="04"><pRank>Lieutenant</pRank> <pSurname>Towles</pSurname></person> (the only officers killed) were entered
+        immediately after the action.</action> <action actCat="casualty" who="US Army">The whole ammount of the Killed on our
+        part were 240</action> <action actCat="casualty" who="Native Confederacy">the loss of the Enemey not precisely ascertained but not
+        more than 30 or 40 were found Dead, and a fiew Canadians</action> <action actCat="prisoner" who="US Army">one was
+        taken prisoner, who was a treader amoung the Indians</action>, and says <description desCat="strength">they opposed
+        us with about 900 Indians &amp; 150 Canadians</description>.
+      </para>
+    </account>
+  </ftAccount>
+</ftAccounts>

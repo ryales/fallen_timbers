@@ -1,65 +1,245 @@
 <?xml version="1.0"?>
-  <xs:schema xmls:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="ftAccount">
-      <!-- Root element -->
+
+<!-- RACHEL YALES                              -->
+<!-- INSTG037 XML FINAL PROJECT                -->
+<!-- INSTRUCTOR: SIMON MAHONY                  -->
+<!-- SCHEMA FOR FALLEN TIMBERS BATTLE ACCOUNTS -->
+
+  <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  	<!-- ROOT ELEMENT -->
+  	<xs:element name="ftAccounts">
       <xs:complexType>
         <xs:sequence>
-          <xs:element name="bibInfo" maxOccurs="1">
-            <!-- Describes the bibliographic source information -->
-            <xs:complexType>
-              <xs:element name="pubArticle" type="xs:string" minOccurs="0"/>
-              <xs:element name="pubTitle" type="xs:string"/>
-              <xs:element name="pubAuthor" ref="person"/>
-              <xs:element name="pubEditor" ref="person" minOccurs="0"/>
-              <xs:element name="pubName" type="xs:string"/>
-              <xs:element name="pubVol" type="xs:integer" minOccurs="0"/>
-              <xs:element name="pubIss" type="xs:integer" minOccurs="0"/>
-              <xs:element name="pubPlace" type=""/>
-              <xs:element name="pubDate" type=""/>
-              <xs:element name="pubPage" type="" minOccurs="0"/>
-              <xs:attribute name="medium">
-                <xs:choice>
-                </xs:choice>
-              </xs:attribute>
-              <xs:attribute name="distance">
-                <xs:choice>
-                </xs:choice>
-              </xs:attribute>
-              <xs:attribute name="text">
-                <xs:choice>
-                </xs:choice>
-              </xs:attribute>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="account" maxOccurs="1">
-            <!-- Contains document text -->
-            <xs:complexType>
+          <!-- ELEMENT FOR EACH INDIVIDUAL ACCOUNT: NO UPPER LIMIT ON NUMBER OF DOCUMENTS -->
+          <xs:element name="ftAccount" maxOccurs="unbounded">
+            <xs:complexType mixed="true">
               <xs:sequence>
-                <xs:element name="header" minOccurs="0">
+                <!-- BIBLIOGRAPHIC INFO ABOUT THE DOCUMENT SOURCE -->
+                <xs:element name="bibInfo">
                   <xs:complexType>
+                    <!-- ONLY 0 OR 1 OF EACH ELEMENT: ORDER DOES NOT MATTER -->
+                    <xs:all>
+                      <xs:element name="pubArticle" type="xs:string" minOccurs="0"/>
+                      <xs:element name="pubTitle" type="xs:string"/>
+                      <!-- PUBAUTHOR CALLS TO GLOBAL PERSON ELEMENT -->
+                      <xs:element name="pubAuthor">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element ref="person"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- PUBEDITOR CALLS TO GLOBAL PERSON ELEMENT -->
+                      <xs:element name="pubEditor" minOccurs="0">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element ref="person"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="pubName" type="xs:string"/>
+                      <xs:element name="pubVol" type="xs:integer" minOccurs="0"/>
+                      <xs:element name="pubIss" type="xs:integer" minOccurs="0"/>
+                      <xs:element name="pubColl" type="xs:string" minOccurs="0"/>
+                      <!-- PUBPLACE IS AN EMPTY ELEMENT WITH ATTRIBUTES -->
+                      <xs:element name="pubPlace" minOccurs="0">
+                        <xs:complexType>
+                          <xs:attribute name="city" type="xs:string"/>
+                          <xs:attribute name="state" type="xs:string"/>
+                          <xs:attribute name="country" type="xs:string"/>
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- PUBDATE HAS DATATYPE GYEAR BECAUSE NO NEED FOR SPECIFIC DATE -->
+                      <xs:element name="pubDate" minOccurs="0">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="date" type="xs:gYear"/>
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="pubPage" type="xs:string" minOccurs="0"/>
+                    </xs:all>
+                    <!-- BIBINFO ATTRIBUTES CLASSIFY DOCUMENT SOURCE -->
+                    <xs:attribute name="medium" type="xs:string" use="required"/>
+                    <xs:attribute name="distance" type="xs:string" use="required"/>
+                    <xs:attribute name="format" type="xs:string" use="required"/>
+                    <xs:attribute name="text" type="xs:string" use="required"/>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="para" maxOccurs="unbounded">
+                <!-- DOCUMENT TEXT -->
+                <xs:element name="account">
                   <xs:complexType>
-                  </xs:complexType>
-                </xs:element>
-                <xs:element name="closing" minOccurs="0">
-                  <xs:complexType>
-                  </xs:complexType>
-                </xs:element>
-                <xs:element name="addressee" minOccurs="0">
-                  <xs:complexType>
+                    <xs:sequence>
+                      <!-- NOT EVERY DOCUMENT HAS HEADER -->
+                      <!-- CALLS TO GLOBAL ELEMENTS -->
+                      <xs:element name="header" minOccurs="0">
+                        <xs:complexType mixed="true">
+                          <xs:choice maxOccurs="unbounded" minOccurs="0">
+                            <xs:element ref="place"/>
+                            <xs:element ref="date"/>
+                          </xs:choice>
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- LETTER DOCUMENTS HAVE OPENINGS -->
+                      <xs:element name="opening" minOccurs="0">
+                        <xs:complexType mixed="true">
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- UNLIMITED NUMBER OF PARAGRAPHS ALLOWED -->
+                      <!-- CALLS TO GLOBAL ELEMENTS -->
+                      <xs:element name="para" maxOccurs="unbounded">
+                        <xs:complexType mixed="true">
+                          <xs:sequence>
+                            <xs:choice maxOccurs="unbounded" minOccurs="0">
+                              <xs:element ref="action"/>
+                              <xs:element ref="description"/>
+                            </xs:choice>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- LETTER DOCUMENTS HAVE CLOSINGS -->
+                      <xs:element name="closing" minOccurs="0">
+                        <xs:complexType mixed="true">
+                          <xs:sequence>
+                            <xs:choice maxOccurs="unbounded" minOccurs="1">
+                              <xs:element ref="person"/>
+                            </xs:choice>
+                          </xs:sequence> 
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- LETTER DOCUMENTS HAVE ADDRESSEE SECTION -->
+                      <xs:element name="addressee" minOccurs="0">
+                        <xs:complexType mixed="true">
+                          <xs:sequence>
+                            <xs:choice maxOccurs="unbounded" minOccurs="1">
+                              <xs:element ref="person"/>
+                            </xs:choice>
+                          </xs:sequence>    
+                        </xs:complexType>
+                      </xs:element>
+                      <!-- SOME LETTER DOCUMENTS HAVE POSTSCRIPTS -->
+                      <xs:element name="postscript" minOccurs="0">
+                        <xs:complexType mixed="true">
+                          <xs:sequence>
+                            <xs:choice maxOccurs="unbounded" minOccurs="0">
+                              <xs:element ref="action"/>
+                              <xs:element ref="description"/>
+                            </xs:choice>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
                   </xs:complexType>
                 </xs:element>
               </xs:sequence>
-            </xs:complexType>
+              <!-- EACH FTACCOUNT HAS UNIQUE ID -->
+              <xs:attribute name="id" type="xs:string" use="required"/>
+            </xs:complexType> 
           </xs:element>
         </xs:sequence>
-        <!-- Each ftAccount has a unique ID -->
-        <xs:attribute name="id" type="xs:ID"/>
+      </xs:complexType>
+  	</xs:element>
+    
+    <!-- GLOBAL ELEMENTS CONTAINED BELOW -->
+    <!-- CAN BE USED IN MULTIPLE CONTEXTS -->
+    <xs:element name="person">  
+      <xs:complexType mixed="true">
+        <xs:all>
+          <xs:element name="pRank" minOccurs="0">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="stRank" type="xs:string"/>
+                </xs:extension>
+              </xs:simpleContent>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="pGiven" minOccurs="0">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="stGiven" type="xs:string"/>
+                </xs:extension>
+              </xs:simpleContent>
+             </xs:complexType>
+          </xs:element>
+          <xs:element name="pSurname" minOccurs="0">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="stSurname" type="xs:string"/>
+                </xs:extension>
+              </xs:simpleContent>
+             </xs:complexType>
+          </xs:element>
+          <xs:element name="pTitle" minOccurs="0">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="stTitle" type="xs:string"/>
+                </xs:extension>
+              </xs:simpleContent>
+             </xs:complexType>
+          </xs:element>
+        </xs:all>
+        <!-- Each unique person required to have an ID -->
+        <xs:attribute name="pID" type="xs:string" use="required" />
       </xs:complexType>
     </xs:element>
-    <!-- Global elements contained below -->
-    <xs:element name="person">
-
+    <xs:element name="place">  
+      <xs:complexType  mixed="true">
+        <xs:attribute name="lat" type="xs:float"/>
+        <xs:attribute name="long" type="xs:float"/>
+        <!-- Each unique place required to have an ID -->
+        <xs:attribute name="placeID" type="xs:string" use="required" />
+      </xs:complexType>
     </xs:element>
+    <xs:element name="date">  
+      <xs:complexType  mixed="true">
+        <xs:attribute name="when" type="xs:date"/>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="unit">  
+      <xs:complexType  mixed="true">
+        <xs:attribute name="name" type="xs:string"/>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="action">  
+      <xs:complexType mixed="true">
+        <xs:sequence>
+          <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element ref="person"/>
+            <xs:element ref="unit"/>
+            <xs:element ref="place"/>
+            <xs:element ref="date"/>
+          </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="actCat" type="xs:string" use="required"/>
+        <xs:attribute name="who" type="xs:string"/>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="description">  
+      <xs:complexType mixed="true">
+        <xs:sequence>
+          <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element ref="person"/>
+            <xs:element ref="unit"/>
+            <xs:element ref="place"/>
+            <xs:element ref="date"/>
+            <xs:element name="weather">
+              <xs:complexType>
+                <xs:simpleContent>
+                  <xs:extension base="xs:string">
+                    <xs:attribute name="weatherID" type="xs:string"/>
+                  </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="desCat" type="xs:string" use="required"/>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="09">
+    <bibInfo medium="letter" distance="primary" format="letter" text="edited_reprint">
+      <pubArticle>
+        From William Campbell to R.G. England
+      </pubArticle>
+      <pubAuthor>
+        <person pID="03">
+          <pRank>Major</pRank>
+          <pGiven>William</pGiven>
+          <pSurname>Campbell</pSurname>
+        </person>
+      </pubAuthor>
+      <pubEditor>
+        <person pID="48">
+          <pRank>Brigadier General</pRank>
+          <pGiven>E. A.</pGiven>
+          <pSurname>Cruikshank</pSurname>
+        </person>
+      </pubEditor>
+      <pubTitle>
+        The Correspondence of Lieut. Governor John Graves Simcoe, with Allied Documents relating to his Administration of the Government of Upper Canada
+      </pubTitle>
+      <pubVol>
+        2
+      </pubVol>
+      <pubName>
+        Ontario Historical Society
+      </pubName>
+      <pubDate date="1924"></pubDate>
+      <pubPlace city="Toronto" state="Ontario" country="Canada"></pubPlace>
+      <pubPage>
+        395-396
+      </pubPage>
+    </bibInfo>
+    <account>
+      <header>
+        <place placeID="04">Fort Miamis</place>, <date when="1794-08-20">August 20th, 1794</date>.
+      </header>
+
+      <opening>
+        My Dear Colonel,
+      </opening>
+
+      <para>
+        <person>I</person> did myself the pleasure to write to you this morning about seven o'clock by
+        <person>Mr. Montigny</person>. Since when we have passed a very odd kind of day. Within
+        less than an hour after he set off <action actCat="battle">a very brisk fire commenced a little higher up than
+        opposite to <person>Colonel McKee</person>'s, and increased until near 11 o'clock</action>, when <action actCat="movement" who="Native Confederacy">we found
+        a number of Indians coming down upon us in the open, but by far the greatest
+        number of them had been noticed under cover of the wood at some distance in our
+        Front</action>. <action>This fire had for some time no other effect upon our working parties than
+        to frighten our Canadians and it was with a good deal of difficulty we could prevail
+        on them not to run away</action>, but as they said to take to their Arms. However, at
+        last it became so serious that <person>I</person> thought it high time to stand to our Arms, fill up
+        all gaps in our Abatis and shut out all communications from the Fort, by fixing our
+        Chevaux de Frise, &amp;c., &amp;c., not knowing at what moment we might be attacked.
+        The fact was&#8212;the Americans and Indians had come to action and the latter were
+        defeated. Some of the Nations fought well but were outgeneralled. The Wyandots,
+        they say, have lost the most, but the loss of men altogether is not great on
+        the part of the Indians. <action actCat="casualty" who="Native Confederacy">Poor <person>Agushway</person> is shot through the head but not killed.</action>
+        <action actCat="casualty" who="Native Confederacy">The <person>Little Otter</person> was killed and several other Chiefs.</action> The Americans, they say,
+        have lost a number. Accounts, you may believe, vary. Some make it out as
+        high as 400 but this <person>I</person> do not credit&#8212;be that as it may, they seem to have completely
+        gained their point. <action>We see them now feeding their horses upon <person>Colonel McKee</person>'s
+        Island, and on this side showing themselves in small bodies very near to us, beating
+        their drums and sounding their horns.</action> <action><person>Colonel McKee</person>, who has been constantly
+        with the Indians for several days past, called on <person>me</person> as <person>he</person> passed down, and acknowledged
+        they were outgeneraled.</action> <action>The Indians are now totally gone away and
+        <person>I</person> believe towards the Mouth of the River</action>, though <person>he</person> said they were still in spirits
+        and determined to give them another brush. <description>It has been a great relief to my mind
+                that the Battle did not happen so near to this Fort, so as to commit <person>me</person>.</description> You
+        will perceive by this that <description><person>I</person> still do not expect him to storm our Works. At the same time <person>I</person>
+                shall act in every respect in the safety of the Post as if <person>I</person> did.</description> <action>The only
+        thing <person>I</person> am in difficulty about is to say how far safe it would be for you to send us
+        a reinforcement. If <person>I</person> was to hazard an opinion, <person>I</person> would think it safe and it will
+        give all here great pleasure to see them.</action> <action>As <person>I</person> send this to <person>Colonel McKee</person> to be
+        forwarded to you</action> <person>I</person> hope he may be better able to give you information on this
+        head. In case of any alteration of circumstances, <person>I</person> shall never lose sight of it.
+      </para>
+
+      <para>
+        <action><person>I</person> expect this will find <person>Colonel McKee</person> near <place placeID="05">Point Au Chen</place>e</action>&#8212;<description>Would to God
+        <person>the Governor</person> himself were here. Whatever happens <person>I</person> shall do for the best. No
+        one can do more.</description> <person>You</person> shall soon hear from me again. Meantime allow me to
+        subscribe myself.
+      </para>
+
+      <closing>
+        Ever most faithfully and truly,
+        <person>Wm. Campbell</person>.
+      </closing>
+
+      <postscript>
+        P.S.&#8212;<action><person>Lt. Selbie</person> arrived about three o'clock with your dispatch of the 18th
+        by which I was extremely happy to find all well at Detroit.</action> <action><person>Captain Harrow</person>
+        and his six sailors are still here.</action> To-morrow morning will probably decide me
+        whether to keep him or not. When we manned our work this morning at Reveille
+        beating, <description>we mustered 160 Rank and File of the 24th, Queen's Rangers, and Artillery,
+        (<person>I</person> beg the Artillery's pardon), exclusive of Canadians and artificers. We have
+        <person>Captain</person> and about 24 Canadians.</description>
+      </postscript>
+    </account>
+  </ftAccount>
+</ftAccounts>  

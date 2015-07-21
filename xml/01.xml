@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/ftaccounts.xsl"?>
+
+<ftAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ftAccounts.xsd">
+  <ftAccount id="01">
+    <bibInfo medium="journal" distance="primary" format="book" text="edited_reprint">
+      <pubTitle>Journal, Thomas Taylor Underwood, March 26, 1792 to March 18, 1800: An Old Soldier in Wayne's Army</pubTitle>
+      <pubAuthor>
+        <person pID="21">
+          <pGiven>Thomas Taylor</pGiven>
+          <pSurname>Underwood</pSurname>
+        </person>
+      </pubAuthor>
+      <pubName>The Society of Colonial Wars in the State of Ohio</pubName>
+      <pubPlace city="Cincinnati" state="Ohio"/>
+      <pubDate date="1945">1945</pubDate>
+      <pubPage>17-18</pubPage>
+    </bibInfo>
+    <account>
+      <header>
+        <place placeID="01" lat="41.487992" long="-83.729863">Camp Deposite</place>, the <date
+          when="1794-08-20">20th August 1794</date>&#8212;
+      </header>
+      <para>
+        <action actCat="mobilization" who="US Army">This morning the army was under arms, at day light and our line of march arranged. </action>
+        <description desCat="position"><person pID="04"><pRank stRank="Lieutenant">Lietenant</pRank> <pGiven stGiven="Henry Beverly">Hary Beverly</pGiven> <pSurname>Towles</pSurname></person> was detailed to take command of <unit name="Front Guard">the front guard</unit>, he was ordered to march on in front,</description>
+        <action actCat="movement" who="US Army">the main army commenced there march</action>, <description desCat="position"><person pID="06"><pRank>General</pRank> <pGiven>Charles</pGiven> <pSurname>Scott</pSurname></person> with his mounted Volunteers were placed in <unit name="Rear Guard">the rear</unit>
+        </description>. After <action actCat="movement" who="US Army">marching 3 or 4 miles </action><action actCat="battle" who="Front Guard">the front guard was fired on</action>, &amp; the <action actCat="casualty" who="Front Guard"> most of them either killed or wounded</action>.
+        <action actCat="casualty" who="Front Guard"><person pID="04"><pRank stRank="Lieutenant">Lieut.</pRank> <pGiven stGiven="Harry Beverly">H. B.</pGiven> <pSurname>Towles</pSurname></person> was killed</action>, <action actCat="casualty" who="Front Guard">also
+        his sergeant, By the name of <person pID="07"><pGiven>Eli</pGiven> <pSurname>Edmondson</pSurname></person></action>.
+        <action actCat="mobilization" who="Legion"> The army was immediately formed for Action</action>, which very soon
+        began, <action actCat="battle"> it commenced on the right of the army, &amp; on the margin of the River</action>,
+        <description desCat="position"><person pID="08"><pRank>Lieutenant</pRank> <pGiven>Percy</pGiven> <pSurname>Pope</pSurname> </person> commanded <person pID="09"> <pRank>Capt.</pRank> <pGiven>John</pGiven> <pSurname>Price</pSurname> </person>s
+        <unit>company of artillery</unit> and he was the first officer that fired a shot from our
+        howitzers</description>. Several of the first shots was with shell then he commenced with grape
+        &amp; cannister shot. <description desCat="landscape">On front &amp; between the indians was a large quantity of
+        falling down Timber, which was a shelter for the indians, where they remained some
+        time</description>, <action actCat="battle" who="Native Confederacy">they would load &amp; fire then fall down &amp; load, then rise
+        and fire again</action>. <action actCat="battle" who="US Legion">A Charge was very soon ordered by the <person pID="01"><pTitle>Commander in
+        chief</pTitle></person></action>, <action actCat="movement" who="Native Confederacy">the indians soon retreated</action>
+        <action actCat="Casualty" who="Native Confederacy">they had a great many killed</action>, <action actCat="burial" who="Native Confederacy">they threw a number of there dead in
+        the River</action>. <action actCat="movement" who="Rear Guard"><person pID="06"><pRank>General</pRank> <pSurname>Scott</pSurname></person> was ordered to try and seround
+        the indians</action>, but <action actCat="movement" who="Native Confederacy">they got aprized of it &amp; retreated as fast as
+        possible</action>&#8212;
+      </para>
+      <para>
+          <action actCat="casualty" who="US Officers"><person pID="05"><pRank stRank="Captain">Capt.</pRank> <pGiven>Robert</pGiven> <pSurname>Mis Campbell</pSurname></person> &amp; <person pID="04"><pRank>Lieutenant</pRank> <pGiven stGiven="Harry Beverly">Harry B.</pGiven>
+          <pSurname>Towles</pSurname></person> were killed and several officers badly wounded.
+          <person pID="10"><pRank>Lieutenant</pRank> <pGiven>Solomon</pGiven> <pSurname stSurname="Van Rensselaer">Vanranceller</pSurname></person> was shot in the right breast and
+          taken to the Generals Quarters</action>, <action actCat="casualty" who="Front Guard"><person pID="11"><pGiven>John</pGiven> <pSurname stSurname="O'Brion">OBrion</pSurname></person> was with the
+          front guard this morning, &amp; on the retreat he was shot in the low part of his back, the
+          ball passed through the bottom of his Belly &amp; lodged in a certain part in front, in his
+          P&#8212;&#8212;</action> After <action actCat="burial" who="US Army">entured the dead with the Honors of War</action>
+          <action actCat="movement" who="US Army">the army marched back to Camp deposite</action>, we have <action actCat="prisoner" who="Native Confederacy">heard that the
+          indians Burnt poor <person pID="12"><pGiven>George</pGiven> <pSurname>May</pSurname></person> who they took prisoner 19th inst.</action>
+      </para>
+    </account>
+  </ftAccount>
+</ftAccounts>
